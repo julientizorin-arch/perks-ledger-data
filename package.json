@@ -1,0 +1,7 @@
+{
+  "name": "perks-ledger-data",
+  "private": true,
+  "type": "module",
+  "scripts": { "validate": "tsx scripts/validate.ts" },
+  "devDependencies": { "tsx": "^4.20.0" }
+}

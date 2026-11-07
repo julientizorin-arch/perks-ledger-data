@@ -1,0 +1,2145 @@
+{
+  "schemaVersion": 1,
+  "dataVersion": "2026.10.22-1",
+  "updatedAt": "2026-10-22",
+  "programs": [
+    {
+      "id": "amex-mr",
+      "name": "Amex Membership Rewards",
+      "cpp": 1.6
+    },
+    {
+      "id": "chase-ur",
+      "name": "Chase Ultimate Rewards",
+      "cpp": 1.6
+    },
+    {
+      "id": "c1-miles",
+      "name": "Capital One Miles",
+      "cpp": 1.6
+    },
+    {
+      "id": "citi-typ",
+      "name": "Citi ThankYou Points",
+      "cpp": 1.5
+    },
+    {
+      "id": "bilt",
+      "name": "Bilt Points",
+      "cpp": 1.6
+    },
+    {
+      "id": "cash",
+      "name": "Cash back (%)",
+      "cpp": 1
+    },
+    {
+      "id": "hilton",
+      "name": "Hilton Honors",
+      "cpp": 0.5
+    },
+    {
+      "id": "marriott",
+      "name": "Marriott Bonvoy",
+      "cpp": 0.75
+    },
+    {
+      "id": "hyatt",
+      "name": "World of Hyatt",
+      "cpp": 1.6
+    },
+    {
+      "id": "ihg",
+      "name": "IHG One Rewards",
+      "cpp": 0.5
+    },
+    {
+      "id": "delta",
+      "name": "Delta SkyMiles",
+      "cpp": 1.1
+    },
+    {
+      "id": "united",
+      "name": "United MileagePlus",
+      "cpp": 1.2
+    },
+    {
+      "id": "aa",
+      "name": "American AAdvantage",
+      "cpp": 1.5
+    },
+    {
+      "id": "southwest",
+      "name": "Southwest Rapid Rewards",
+      "cpp": 1.3
+    },
+    {
+      "id": "atmos",
+      "name": "Atmos Rewards (Alaska/Hawaiian)",
+      "cpp": 1.4
+    },
+    {
+      "id": "jetblue",
+      "name": "JetBlue TrueBlue",
+      "cpp": 1.3
+    }
+  ],
+  "airlines": [
+    "None / mixed",
+    "American",
+    "Delta",
+    "United",
+    "Southwest",
+    "Alaska",
+    "JetBlue"
+  ],
+  "hotels": [
+    "None / mixed",
+    "Hilton",
+    "Marriott",
+    "Hyatt",
+    "IHG"
+  ],
+  "cards": [
+    {
+      "business": false,
+      "open": true,
+      "credits": [
+        {
+          "id": "hotel",
+          "name": "Fine Hotels + Resorts / Hotel Collection",
+          "amount": 300,
+          "cadence": "semiannual",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.6,
+          "notes": "Prepaid via Amex Travel"
+        },
+        {
+          "id": "resy",
+          "name": "Resy restaurant credit",
+          "amount": 100,
+          "cadence": "quarterly",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.8,
+          "enroll": true
+        },
+        {
+          "id": "digital",
+          "name": "Digital entertainment",
+          "amount": 25,
+          "cadence": "monthly",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.7,
+          "enroll": true,
+          "notes": "Disney+, Hulu, ESPN+, NYT, YouTube TV and others"
+        },
+        {
+          "id": "uber-cash",
+          "name": "Uber Cash",
+          "amount": 15,
+          "cadence": "monthly",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.7,
+          "periodAmounts": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            35
+          ],
+          "notes": "$15/mo, $35 in December"
+        },
+        {
+          "id": "uber-one",
+          "name": "Uber One membership",
+          "amount": 120,
+          "cadence": "annual",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.5
+        },
+        {
+          "id": "airline",
+          "name": "Airline incidental fees",
+          "amount": 200,
+          "cadence": "annual",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.5,
+          "notes": "One selected airline"
+        },
+        {
+          "id": "walmart",
+          "name": "Walmart+ membership",
+          "amount": 12.95,
+          "cadence": "monthly",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.3
+        },
+        {
+          "id": "clear",
+          "name": "CLEAR+",
+          "amount": 219,
+          "cadence": "annual",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.5
+        },
+        {
+          "id": "lululemon",
+          "name": "lululemon",
+          "amount": 75,
+          "cadence": "quarterly",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.3,
+          "enroll": true
+        },
+        {
+          "id": "equinox",
+          "name": "Equinox",
+          "amount": 300,
+          "cadence": "annual",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.1,
+          "enroll": true
+        },
+        {
+          "id": "oura",
+          "name": "Oura Ring",
+          "amount": 200,
+          "cadence": "annual",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.1,
+          "enroll": true
+        }
+      ],
+      "perks": [
+        "Centurion, Priority Pass and Delta Sky Club (on Delta flights) access",
+        "Hilton Gold and Marriott Gold status",
+        "5x on prepaid hotels via Amex Travel",
+        "Global Entry / TSA PreCheck credit every 4 years"
+      ],
+      "verified": "2026-10-22",
+      "id": "amex-platinum",
+      "name": "The Platinum Card",
+      "issuer": "American Express",
+      "network": "Amex",
+      "annualFee": 895,
+      "program": "amex-mr",
+      "earn": {
+        "flights": 5,
+        "other": 1
+      }
+    },
+    {
+      "business": false,
+      "open": true,
+      "credits": [
+        {
+          "id": "uber-cash",
+          "name": "Uber Cash",
+          "amount": 10,
+          "cadence": "monthly",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.8
+        },
+        {
+          "id": "dining",
+          "name": "Dining credit (Grubhub, Five Guys, Cheesecake Factory…)",
+          "amount": 10,
+          "cadence": "monthly",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.6,
+          "enroll": true
+        },
+        {
+          "id": "resy",
+          "name": "Resy restaurant credit",
+          "amount": 50,
+          "cadence": "semiannual",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.8,
+          "enroll": true
+        },
+        {
+          "id": "dunkin",
+          "name": "Dunkin' credit",
+          "amount": 7,
+          "cadence": "monthly",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.4,
+          "enroll": true
+        }
+      ],
+      "perks": [
+        "$100 Hotel Collection credit on 2+ night stays",
+        "5x prepaid hotels via Amex Travel"
+      ],
+      "verified": "2026-10-22",
+      "id": "amex-gold",
+      "name": "Gold Card",
+      "issuer": "American Express",
+      "network": "Amex",
+      "annualFee": 325,
+      "program": "amex-mr",
+      "earn": {
+        "dining": 4,
+        "groceries": 4,
+        "flights": 3,
+        "other": 1
+      },
+      "caps": {
+        "dining": 50000,
+        "groceries": 25000
+      }
+    },
+    {
+      "business": false,
+      "open": true,
+      "credits": [
+        {
+          "id": "disney",
+          "name": "Disney streaming bundle",
+          "amount": 10,
+          "cadence": "monthly",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.6,
+          "enroll": true
+        }
+      ],
+      "perks": [],
+      "verified": "2026-10-22",
+      "id": "amex-bcp",
+      "name": "Blue Cash Preferred",
+      "issuer": "American Express",
+      "network": "Amex",
+      "annualFee": 95,
+      "program": "cash",
+      "earn": {
+        "groceries": 6,
+        "streaming": 6,
+        "gas": 3,
+        "travel": 3,
+        "other": 1
+      },
+      "caps": {
+        "groceries": 6000
+      }
+    },
+    {
+      "business": false,
+      "open": true,
+      "credits": [
+        {
+          "id": "disney",
+          "name": "Disney streaming bundle",
+          "amount": 7,
+          "cadence": "monthly",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.6,
+          "enroll": true
+        }
+      ],
+      "perks": [],
+      "verified": "2026-10-22",
+      "id": "amex-bce",
+      "name": "Blue Cash Everyday",
+      "issuer": "American Express",
+      "network": "Amex",
+      "annualFee": 0,
+      "program": "cash",
+      "earn": {
+        "groceries": 3,
+        "gas": 3,
+        "amazon": 3,
+        "other": 1
+      },
+      "caps": {
+        "groceries": 6000,
+        "gas": 6000,
+        "amazon": 6000
+      }
+    },
+    {
+      "business": true,
+      "open": true,
+      "credits": [
+        {
+          "id": "hotel",
+          "name": "Fine Hotels + Resorts / Hotel Collection",
+          "amount": 300,
+          "cadence": "semiannual",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.6
+        },
+        {
+          "id": "airline",
+          "name": "Airline incidental fees",
+          "amount": 200,
+          "cadence": "annual",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.5
+        },
+        {
+          "id": "hilton",
+          "name": "Hilton credit",
+          "amount": 50,
+          "cadence": "quarterly",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.4,
+          "enroll": true
+        },
+        {
+          "id": "wireless",
+          "name": "Wireless phone credit",
+          "amount": 10,
+          "cadence": "monthly",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.7,
+          "enroll": true
+        },
+        {
+          "id": "indeed",
+          "name": "Indeed hiring credit",
+          "amount": 90,
+          "cadence": "quarterly",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.1,
+          "enroll": true
+        },
+        {
+          "id": "dell",
+          "name": "Dell Technologies",
+          "amount": 150,
+          "cadence": "annual",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.2,
+          "enroll": true,
+          "notes": "Plus $1,000 after $5,000 Dell spend"
+        },
+        {
+          "id": "clear",
+          "name": "CLEAR+",
+          "amount": 219,
+          "cadence": "annual",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.5
+        }
+      ],
+      "perks": [
+        "Centurion and Priority Pass lounges",
+        "1.5x on purchases of $5,000+"
+      ],
+      "verified": "2026-10-22",
+      "id": "amex-biz-platinum",
+      "name": "Business Platinum Card",
+      "issuer": "American Express",
+      "network": "Amex",
+      "annualFee": 895,
+      "program": "amex-mr",
+      "earn": {
+        "flights": 5,
+        "other": 1
+      }
+    },
+    {
+      "business": true,
+      "open": true,
+      "credits": [
+        {
+          "id": "flex",
+          "name": "Flexible business credit",
+          "amount": 20,
+          "cadence": "monthly",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.7,
+          "enroll": true
+        },
+        {
+          "id": "walmart",
+          "name": "Walmart+ membership",
+          "amount": 12.95,
+          "cadence": "monthly",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.3
+        }
+      ],
+      "perks": [],
+      "verified": "2026-10-22",
+      "id": "amex-biz-gold",
+      "name": "Business Gold Card",
+      "issuer": "American Express",
+      "network": "Amex",
+      "annualFee": 375,
+      "program": "amex-mr",
+      "earn": {
+        "other": 1
+      },
+      "choice": {
+        "categories": [
+          "dining",
+          "gas",
+          "travel",
+          "flights"
+        ],
+        "picks": 2,
+        "mult": 4,
+        "cap": 150000
+      },
+      "notes": "4x automatically applies to your top 2 eligible categories each month"
+    },
+    {
+      "business": false,
+      "open": true,
+      "credits": [
+        {
+          "id": "resort",
+          "name": "Hilton resort credit",
+          "amount": 200,
+          "cadence": "semiannual",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.6
+        },
+        {
+          "id": "flight",
+          "name": "Flight credit",
+          "amount": 50,
+          "cadence": "quarterly",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.7
+        },
+        {
+          "id": "clear",
+          "name": "CLEAR+",
+          "amount": 219,
+          "cadence": "annual",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.5
+        },
+        {
+          "id": "free-night",
+          "name": "Annual free night reward",
+          "amount": 300,
+          "cadence": "annual",
+          "basis": "cardmember",
+          "kind": "certificate",
+          "ease": 0.85
+        }
+      ],
+      "perks": [
+        "Hilton Diamond status",
+        "$100 on-property credit at Waldorf Astoria / Conrad (2+ nights)"
+      ],
+      "verified": "2026-10-22",
+      "id": "amex-hilton-aspire",
+      "name": "Hilton Honors Aspire",
+      "issuer": "American Express",
+      "network": "Amex",
+      "annualFee": 550,
+      "program": "hilton",
+      "earn": {
+        "flights": 7,
+        "dining": 7,
+        "travel": 7,
+        "other": 3
+      },
+      "brand": {
+        "hotel": "Hilton",
+        "hotelsMult": 14
+      }
+    },
+    {
+      "business": false,
+      "open": true,
+      "credits": [
+        {
+          "id": "hilton",
+          "name": "Hilton credit",
+          "amount": 50,
+          "cadence": "quarterly",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.5
+        }
+      ],
+      "perks": [
+        "Hilton Gold status",
+        "Free night after $15,000 calendar-year spend"
+      ],
+      "verified": "2026-10-22",
+      "id": "amex-hilton-surpass",
+      "name": "Hilton Honors Surpass",
+      "issuer": "American Express",
+      "network": "Amex",
+      "annualFee": 150,
+      "program": "hilton",
+      "earn": {
+        "dining": 6,
+        "groceries": 6,
+        "gas": 6,
+        "other": 3
+      },
+      "brand": {
+        "hotel": "Hilton",
+        "hotelsMult": 12
+      }
+    },
+    {
+      "business": false,
+      "open": true,
+      "credits": [],
+      "perks": [
+        "Hilton Silver status"
+      ],
+      "verified": null,
+      "id": "amex-hilton",
+      "name": "Hilton Honors Card",
+      "issuer": "American Express",
+      "network": "Amex",
+      "annualFee": 0,
+      "program": "hilton",
+      "earn": {
+        "dining": 5,
+        "groceries": 5,
+        "gas": 5,
+        "other": 3
+      },
+      "brand": {
+        "hotel": "Hilton",
+        "hotelsMult": 7
+      }
+    },
+    {
+      "business": false,
+      "open": true,
+      "credits": [
+        {
+          "id": "dining",
+          "name": "Dining credit",
+          "amount": 25,
+          "cadence": "monthly",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.85
+        },
+        {
+          "id": "free-night",
+          "name": "Annual free night (up to 85k points)",
+          "amount": 400,
+          "cadence": "annual",
+          "basis": "cardmember",
+          "kind": "certificate",
+          "ease": 0.8
+        }
+      ],
+      "perks": [
+        "Marriott Platinum Elite status",
+        "$100 property credit at Ritz-Carlton / St. Regis (2+ nights)"
+      ],
+      "verified": "2026-10-22",
+      "id": "amex-marriott-brilliant",
+      "name": "Marriott Bonvoy Brilliant",
+      "issuer": "American Express",
+      "network": "Amex",
+      "annualFee": 650,
+      "program": "marriott",
+      "earn": {
+        "dining": 3,
+        "flights": 3,
+        "other": 2
+      },
+      "brand": {
+        "hotel": "Marriott",
+        "hotelsMult": 6
+      }
+    },
+    {
+      "business": false,
+      "open": true,
+      "credits": [],
+      "perks": [
+        "Marriott Gold Elite status",
+        "Free night after $15,000 calendar-year spend"
+      ],
+      "verified": null,
+      "id": "amex-marriott-bevy",
+      "name": "Marriott Bonvoy Bevy",
+      "issuer": "American Express",
+      "network": "Amex",
+      "annualFee": 250,
+      "program": "marriott",
+      "earn": {
+        "dining": 4,
+        "groceries": 4,
+        "other": 2
+      },
+      "caps": {
+        "dining": 15000,
+        "groceries": 15000
+      },
+      "brand": {
+        "hotel": "Marriott",
+        "hotelsMult": 6
+      }
+    },
+    {
+      "business": false,
+      "open": true,
+      "credits": [
+        {
+          "id": "stays",
+          "name": "Delta Stays credit",
+          "amount": 100,
+          "cadence": "annual",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.4
+        }
+      ],
+      "perks": [
+        "First checked bag free",
+        "Priority boarding"
+      ],
+      "verified": "2026-10-22",
+      "id": "amex-delta-gold",
+      "name": "Delta SkyMiles Gold",
+      "issuer": "American Express",
+      "network": "Amex",
+      "annualFee": 150,
+      "program": "delta",
+      "earn": {
+        "dining": 2,
+        "groceries": 2,
+        "other": 1
+      },
+      "brand": {
+        "airline": "Delta",
+        "flightsMult": 2
+      }
+    },
+    {
+      "business": false,
+      "open": true,
+      "credits": [
+        {
+          "id": "stays",
+          "name": "Delta Stays credit",
+          "amount": 150,
+          "cadence": "annual",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.4
+        },
+        {
+          "id": "resy",
+          "name": "Resy restaurant credit",
+          "amount": 10,
+          "cadence": "monthly",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.6,
+          "enroll": true
+        },
+        {
+          "id": "rideshare",
+          "name": "Rideshare credit",
+          "amount": 10,
+          "cadence": "monthly",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.7,
+          "enroll": true
+        },
+        {
+          "id": "companion",
+          "name": "Companion certificate (main cabin, domestic)",
+          "amount": 250,
+          "cadence": "annual",
+          "basis": "cardmember",
+          "kind": "certificate",
+          "ease": 0.5
+        }
+      ],
+      "perks": [
+        "First checked bag free"
+      ],
+      "verified": "2026-10-22",
+      "id": "amex-delta-platinum",
+      "name": "Delta SkyMiles Platinum",
+      "issuer": "American Express",
+      "network": "Amex",
+      "annualFee": 350,
+      "program": "delta",
+      "earn": {
+        "hotels": 3,
+        "dining": 2,
+        "groceries": 2,
+        "other": 1
+      },
+      "brand": {
+        "airline": "Delta",
+        "flightsMult": 3
+      }
+    },
+    {
+      "business": false,
+      "open": true,
+      "credits": [
+        {
+          "id": "stays",
+          "name": "Delta Stays credit",
+          "amount": 200,
+          "cadence": "annual",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.4
+        },
+        {
+          "id": "resy",
+          "name": "Resy restaurant credit",
+          "amount": 20,
+          "cadence": "monthly",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.6,
+          "enroll": true
+        },
+        {
+          "id": "rideshare",
+          "name": "Rideshare credit",
+          "amount": 10,
+          "cadence": "monthly",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.7,
+          "enroll": true
+        },
+        {
+          "id": "companion",
+          "name": "Companion certificate (first / Comfort / main)",
+          "amount": 450,
+          "cadence": "annual",
+          "basis": "cardmember",
+          "kind": "certificate",
+          "ease": 0.5
+        }
+      ],
+      "perks": [
+        "Delta Sky Club access (visit limits apply)",
+        "First checked bag free"
+      ],
+      "verified": "2026-10-22",
+      "id": "amex-delta-reserve",
+      "name": "Delta SkyMiles Reserve",
+      "issuer": "American Express",
+      "network": "Amex",
+      "annualFee": 650,
+      "program": "delta",
+      "earn": {
+        "other": 1
+      },
+      "brand": {
+        "airline": "Delta",
+        "flightsMult": 3
+      }
+    },
+    {
+      "business": false,
+      "open": true,
+      "credits": [
+        {
+          "id": "travel",
+          "name": "Annual travel credit",
+          "amount": 300,
+          "cadence": "annual",
+          "basis": "cardmember",
+          "kind": "credit",
+          "ease": 0.95
+        },
+        {
+          "id": "edit",
+          "name": "The Edit hotel credit",
+          "amount": 250,
+          "cadence": "semiannual",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.5,
+          "notes": "Prepaid 2+ night stays via Chase Travel"
+        },
+        {
+          "id": "dining",
+          "name": "Exclusive Tables dining",
+          "amount": 150,
+          "cadence": "semiannual",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.5
+        },
+        {
+          "id": "stubhub",
+          "name": "StubHub / viagogo",
+          "amount": 150,
+          "cadence": "semiannual",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.4,
+          "enroll": true
+        },
+        {
+          "id": "doordash",
+          "name": "DoorDash",
+          "amount": 25,
+          "cadence": "monthly",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.6,
+          "notes": "Some 2026 sources cite $35/mo; verify"
+        },
+        {
+          "id": "lyft",
+          "name": "Lyft",
+          "amount": 10,
+          "cadence": "monthly",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.5
+        },
+        {
+          "id": "peloton",
+          "name": "Peloton",
+          "amount": 10,
+          "cadence": "monthly",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.2,
+          "enroll": true
+        },
+        {
+          "id": "apple",
+          "name": "Apple TV+ and Apple Music",
+          "amount": 288,
+          "cadence": "annual",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.5,
+          "enroll": true,
+          "notes": "Complimentary subscriptions, valued at retail"
+        }
+      ],
+      "perks": [
+        "Priority Pass and Chase Sapphire Lounges",
+        "8x on Chase Travel",
+        "5x on Lyft",
+        "Primary rental car coverage"
+      ],
+      "verified": "2026-10-22",
+      "id": "chase-sapphire-reserve",
+      "name": "Sapphire Reserve",
+      "issuer": "Chase",
+      "network": "Visa",
+      "annualFee": 795,
+      "program": "chase-ur",
+      "earn": {
+        "flights": 4,
+        "hotels": 4,
+        "dining": 3,
+        "travel": 1,
+        "other": 1
+      }
+    },
+    {
+      "business": false,
+      "open": true,
+      "credits": [
+        {
+          "id": "hotel",
+          "name": "Chase Travel hotel credit",
+          "amount": 100,
+          "cadence": "annual",
+          "basis": "cardmember",
+          "kind": "credit",
+          "ease": 0.7
+        },
+        {
+          "id": "doordash",
+          "name": "DoorDash promo",
+          "amount": 10,
+          "cadence": "monthly",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.5
+        }
+      ],
+      "perks": [
+        "10% anniversary points bonus",
+        "Primary rental car coverage",
+        "5x on Chase Travel"
+      ],
+      "verified": "2026-10-22",
+      "id": "chase-sapphire-preferred",
+      "name": "Sapphire Preferred",
+      "issuer": "Chase",
+      "network": "Visa",
+      "annualFee": 95,
+      "program": "chase-ur",
+      "earn": {
+        "dining": 3,
+        "streaming": 3,
+        "groceries": 3,
+        "flights": 2,
+        "hotels": 2,
+        "travel": 2,
+        "other": 1
+      }
+    },
+    {
+      "business": false,
+      "open": true,
+      "credits": [],
+      "perks": [],
+      "verified": null,
+      "id": "chase-freedom-unlimited",
+      "name": "Freedom Unlimited",
+      "issuer": "Chase",
+      "network": "Visa",
+      "annualFee": 0,
+      "program": "chase-ur",
+      "earn": {
+        "dining": 3,
+        "drugstores": 3,
+        "other": 1.5
+      },
+      "notes": "Points become transferable when paired with Sapphire / Ink Preferred"
+    },
+    {
+      "business": false,
+      "open": true,
+      "credits": [],
+      "perks": [],
+      "verified": null,
+      "id": "chase-freedom-flex",
+      "name": "Freedom Flex",
+      "issuer": "Chase",
+      "network": "Mastercard",
+      "annualFee": 0,
+      "program": "chase-ur",
+      "earn": {
+        "dining": 3,
+        "drugstores": 3,
+        "other": 1
+      },
+      "notes": "5% rotating quarterly categories not modeled"
+    },
+    {
+      "business": true,
+      "open": true,
+      "credits": [],
+      "perks": [
+        "3x on shipping, advertising, internet/cable/phone (combined $150k cap)",
+        "Cell phone protection"
+      ],
+      "verified": null,
+      "id": "chase-ink-preferred",
+      "name": "Ink Business Preferred",
+      "issuer": "Chase",
+      "network": "Visa",
+      "annualFee": 95,
+      "program": "chase-ur",
+      "earn": {
+        "flights": 3,
+        "hotels": 3,
+        "travel": 3,
+        "other": 1
+      },
+      "caps": {
+        "flights": 150000,
+        "hotels": 150000,
+        "travel": 150000
+      }
+    },
+    {
+      "business": true,
+      "open": true,
+      "credits": [],
+      "perks": [],
+      "verified": null,
+      "id": "chase-ink-unlimited",
+      "name": "Ink Business Unlimited",
+      "issuer": "Chase",
+      "network": "Visa",
+      "annualFee": 0,
+      "program": "chase-ur",
+      "earn": {
+        "other": 1.5
+      }
+    },
+    {
+      "business": false,
+      "open": true,
+      "credits": [],
+      "perks": [],
+      "verified": null,
+      "id": "chase-prime-visa",
+      "name": "Prime Visa",
+      "issuer": "Chase",
+      "network": "Visa",
+      "annualFee": 0,
+      "program": "cash",
+      "earn": {
+        "amazon": 5,
+        "dining": 2,
+        "gas": 2,
+        "travel": 2,
+        "other": 1
+      },
+      "notes": "Requires Prime membership"
+    },
+    {
+      "business": false,
+      "open": true,
+      "credits": [
+        {
+          "id": "rideshare",
+          "name": "Rideshare credit",
+          "amount": 5,
+          "cadence": "monthly",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.6
+        },
+        {
+          "id": "instacart",
+          "name": "Instacart credit",
+          "amount": 10,
+          "cadence": "monthly",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.4
+        },
+        {
+          "id": "hotel",
+          "name": "United Hotels credit",
+          "amount": 50,
+          "cadence": "semiannual",
+          "basis": "cardmember",
+          "kind": "credit",
+          "ease": 0.3,
+          "notes": "Two $50 prepaid stays per year"
+        }
+      ],
+      "perks": [
+        "First checked bag free",
+        "2 United Club passes per year"
+      ],
+      "verified": "2026-10-22",
+      "id": "chase-united-explorer",
+      "name": "United Explorer",
+      "issuer": "Chase",
+      "network": "Visa",
+      "annualFee": 150,
+      "program": "united",
+      "earn": {
+        "dining": 2,
+        "hotels": 2,
+        "other": 1
+      },
+      "brand": {
+        "airline": "United",
+        "flightsMult": 2
+      }
+    },
+    {
+      "business": false,
+      "open": true,
+      "credits": [
+        {
+          "id": "travelbank",
+          "name": "United TravelBank cash",
+          "amount": 200,
+          "cadence": "annual",
+          "basis": "cardmember",
+          "kind": "credit",
+          "ease": 0.8
+        },
+        {
+          "id": "rideshare",
+          "name": "Rideshare credit",
+          "amount": 8,
+          "cadence": "monthly",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.6,
+          "periodAmounts": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            12
+          ]
+        },
+        {
+          "id": "instacart",
+          "name": "Instacart credit",
+          "amount": 15,
+          "cadence": "monthly",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.4
+        },
+        {
+          "id": "renowned",
+          "name": "Renowned Hotels credit",
+          "amount": 150,
+          "cadence": "annual",
+          "basis": "cardmember",
+          "kind": "credit",
+          "ease": 0.3
+        }
+      ],
+      "perks": [
+        "First and second checked bags free"
+      ],
+      "verified": "2026-10-22",
+      "id": "chase-united-quest",
+      "name": "United Quest",
+      "issuer": "Chase",
+      "network": "Visa",
+      "annualFee": 350,
+      "program": "united",
+      "earn": {
+        "dining": 2,
+        "hotels": 2,
+        "travel": 2,
+        "streaming": 2,
+        "other": 1
+      },
+      "brand": {
+        "airline": "United",
+        "flightsMult": 3
+      }
+    },
+    {
+      "business": false,
+      "open": true,
+      "credits": [
+        {
+          "id": "rideshare",
+          "name": "Rideshare credit",
+          "amount": 12,
+          "cadence": "monthly",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.6,
+          "periodAmounts": [
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            18
+          ]
+        },
+        {
+          "id": "instacart",
+          "name": "Instacart credit",
+          "amount": 20,
+          "cadence": "monthly",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.4
+        },
+        {
+          "id": "renowned",
+          "name": "Renowned Hotels credit",
+          "amount": 200,
+          "cadence": "annual",
+          "basis": "cardmember",
+          "kind": "credit",
+          "ease": 0.3
+        }
+      ],
+      "perks": [
+        "United Club membership",
+        "Premier Access, two free checked bags"
+      ],
+      "verified": "2026-10-22",
+      "id": "chase-united-club",
+      "name": "United Club Card",
+      "issuer": "Chase",
+      "network": "Visa",
+      "annualFee": 695,
+      "program": "united",
+      "earn": {
+        "dining": 2,
+        "travel": 2,
+        "hotels": 2,
+        "other": 1
+      },
+      "brand": {
+        "airline": "United",
+        "flightsMult": 4
+      }
+    },
+    {
+      "business": false,
+      "open": true,
+      "credits": [
+        {
+          "id": "travel",
+          "name": "Southwest travel credit",
+          "amount": 75,
+          "cadence": "annual",
+          "basis": "cardmember",
+          "kind": "credit",
+          "ease": 0.8
+        },
+        {
+          "id": "anniversary",
+          "name": "Anniversary points",
+          "amount": 7500,
+          "cadence": "annual",
+          "basis": "cardmember",
+          "kind": "points",
+          "ease": 1
+        }
+      ],
+      "perks": [],
+      "verified": null,
+      "id": "chase-southwest-priority",
+      "name": "Southwest Rapid Rewards Priority",
+      "issuer": "Chase",
+      "network": "Visa",
+      "annualFee": 229,
+      "program": "southwest",
+      "earn": {
+        "travel": 2,
+        "gas": 2,
+        "dining": 2,
+        "other": 1
+      },
+      "brand": {
+        "airline": "Southwest",
+        "flightsMult": 4
+      }
+    },
+    {
+      "business": false,
+      "open": true,
+      "credits": [
+        {
+          "id": "free-night",
+          "name": "Annual free night (up to 35k points)",
+          "amount": 200,
+          "cadence": "annual",
+          "basis": "cardmember",
+          "kind": "certificate",
+          "ease": 0.85
+        }
+      ],
+      "perks": [],
+      "verified": null,
+      "id": "chase-marriott-boundless",
+      "name": "Marriott Bonvoy Boundless",
+      "issuer": "Chase",
+      "network": "Visa",
+      "annualFee": 95,
+      "program": "marriott",
+      "earn": {
+        "groceries": 3,
+        "gas": 3,
+        "dining": 3,
+        "other": 2
+      },
+      "caps": {
+        "groceries": 6000,
+        "gas": 6000,
+        "dining": 6000
+      },
+      "brand": {
+        "hotel": "Marriott",
+        "hotelsMult": 6
+      }
+    },
+    {
+      "business": false,
+      "open": true,
+      "credits": [
+        {
+          "id": "free-night",
+          "name": "Annual Category 1–4 free night",
+          "amount": 200,
+          "cadence": "annual",
+          "basis": "cardmember",
+          "kind": "certificate",
+          "ease": 0.85
+        }
+      ],
+      "perks": [
+        "Hyatt Discoverist status",
+        "Second free night after $15,000 spend"
+      ],
+      "verified": null,
+      "id": "chase-hyatt",
+      "name": "World of Hyatt Credit Card",
+      "issuer": "Chase",
+      "network": "Visa",
+      "annualFee": 95,
+      "program": "hyatt",
+      "earn": {
+        "dining": 2,
+        "flights": 2,
+        "travel": 2,
+        "other": 1
+      },
+      "brand": {
+        "hotel": "Hyatt",
+        "hotelsMult": 4
+      }
+    },
+    {
+      "business": false,
+      "open": true,
+      "credits": [
+        {
+          "id": "free-night",
+          "name": "Annual free night (up to 40k points)",
+          "amount": 200,
+          "cadence": "annual",
+          "basis": "cardmember",
+          "kind": "certificate",
+          "ease": 0.8
+        }
+      ],
+      "perks": [
+        "IHG Platinum Elite status",
+        "4th reward night free"
+      ],
+      "verified": null,
+      "id": "chase-ihg-premier",
+      "name": "IHG One Rewards Premier",
+      "issuer": "Chase",
+      "network": "Mastercard",
+      "annualFee": 99,
+      "program": "ihg",
+      "earn": {
+        "travel": 5,
+        "dining": 5,
+        "gas": 5,
+        "flights": 5,
+        "other": 3
+      },
+      "brand": {
+        "hotel": "IHG",
+        "hotelsMult": 10
+      }
+    },
+    {
+      "business": false,
+      "open": true,
+      "credits": [
+        {
+          "id": "travel",
+          "name": "Capital One Travel credit",
+          "amount": 300,
+          "cadence": "annual",
+          "basis": "cardmember",
+          "kind": "credit",
+          "ease": 0.85
+        },
+        {
+          "id": "anniversary",
+          "name": "Anniversary bonus miles",
+          "amount": 10000,
+          "cadence": "annual",
+          "basis": "cardmember",
+          "kind": "points",
+          "ease": 1
+        }
+      ],
+      "perks": [
+        "Capital One Lounges and Priority Pass (guests paid since Feb 2026)",
+        "10x hotels / cars and 5x flights via Capital One Travel"
+      ],
+      "verified": "2026-10-22",
+      "id": "c1-venture-x",
+      "name": "Venture X",
+      "issuer": "Capital One",
+      "network": "Visa",
+      "annualFee": 395,
+      "program": "c1-miles",
+      "earn": {
+        "other": 2
+      }
+    },
+    {
+      "business": false,
+      "open": true,
+      "credits": [],
+      "perks": [],
+      "verified": null,
+      "id": "c1-venture",
+      "name": "Venture Rewards",
+      "issuer": "Capital One",
+      "network": "Visa",
+      "annualFee": 95,
+      "program": "c1-miles",
+      "earn": {
+        "other": 2
+      }
+    },
+    {
+      "business": false,
+      "open": true,
+      "credits": [],
+      "perks": [],
+      "verified": null,
+      "id": "c1-savor",
+      "name": "Savor Cash Rewards",
+      "issuer": "Capital One",
+      "network": "Mastercard",
+      "annualFee": 0,
+      "program": "cash",
+      "earn": {
+        "dining": 3,
+        "groceries": 3,
+        "streaming": 3,
+        "other": 1
+      }
+    },
+    {
+      "business": false,
+      "open": true,
+      "credits": [],
+      "perks": [],
+      "verified": null,
+      "id": "c1-quicksilver",
+      "name": "Quicksilver",
+      "issuer": "Capital One",
+      "network": "Visa",
+      "annualFee": 0,
+      "program": "cash",
+      "earn": {
+        "other": 1.5
+      }
+    },
+    {
+      "business": false,
+      "open": true,
+      "credits": [
+        {
+          "id": "hotel",
+          "name": "Citi Travel hotel credit",
+          "amount": 300,
+          "cadence": "annual",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.6,
+          "notes": "2+ night stays"
+        },
+        {
+          "id": "splurge",
+          "name": "Splurge credit (2 chosen merchants)",
+          "amount": 200,
+          "cadence": "annual",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.6,
+          "enroll": true
+        },
+        {
+          "id": "blacklane",
+          "name": "Blacklane",
+          "amount": 100,
+          "cadence": "semiannual",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.2
+        }
+      ],
+      "perks": [
+        "Priority Pass",
+        "4 Admirals Club day passes",
+        "12x hotels / cars via Citi Travel",
+        "6x dining Fri–Sat nights"
+      ],
+      "verified": "2026-10-22",
+      "id": "citi-strata-elite",
+      "name": "Strata Elite",
+      "issuer": "Citi",
+      "network": "Mastercard",
+      "annualFee": 595,
+      "program": "citi-typ",
+      "earn": {
+        "dining": 3,
+        "other": 1.5
+      }
+    },
+    {
+      "business": false,
+      "open": true,
+      "credits": [
+        {
+          "id": "hotel",
+          "name": "Hotel credit ($500+ booking via Citi Travel)",
+          "amount": 100,
+          "cadence": "annual",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.5
+        }
+      ],
+      "perks": [],
+      "verified": "2026-10-22",
+      "id": "citi-strata-premier",
+      "name": "Strata Premier",
+      "issuer": "Citi",
+      "network": "Mastercard",
+      "annualFee": 95,
+      "program": "citi-typ",
+      "earn": {
+        "flights": 3,
+        "hotels": 3,
+        "dining": 3,
+        "groceries": 3,
+        "gas": 3,
+        "other": 1
+      }
+    },
+    {
+      "business": false,
+      "open": true,
+      "credits": [],
+      "perks": [],
+      "verified": null,
+      "id": "citi-double-cash",
+      "name": "Double Cash",
+      "issuer": "Citi",
+      "network": "Mastercard",
+      "annualFee": 0,
+      "program": "cash",
+      "earn": {
+        "other": 2
+      }
+    },
+    {
+      "business": false,
+      "open": true,
+      "credits": [],
+      "perks": [],
+      "verified": null,
+      "id": "citi-custom-cash",
+      "name": "Custom Cash",
+      "issuer": "Citi",
+      "network": "Mastercard",
+      "annualFee": 0,
+      "program": "cash",
+      "earn": {
+        "other": 1
+      },
+      "choice": {
+        "categories": [
+          "dining",
+          "groceries",
+          "gas",
+          "travel",
+          "streaming",
+          "drugstores"
+        ],
+        "picks": 1,
+        "mult": 5,
+        "cap": 6000
+      },
+      "notes": "5% on your top eligible category each month (up to $500/mo)"
+    },
+    {
+      "business": false,
+      "open": true,
+      "credits": [
+        {
+          "id": "avis",
+          "name": "Avis / Budget credit",
+          "amount": 120,
+          "cadence": "annual",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.2
+        },
+        {
+          "id": "lyft",
+          "name": "Lyft (after 3 rides/mo)",
+          "amount": 15,
+          "cadence": "monthly",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.2
+        },
+        {
+          "id": "grubhub",
+          "name": "Grubhub",
+          "amount": 10,
+          "cadence": "monthly",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.4
+        }
+      ],
+      "perks": [
+        "Admirals Club membership",
+        "First checked bag free"
+      ],
+      "verified": "2026-10-22",
+      "id": "citi-aa-executive",
+      "name": "AAdvantage Executive World Elite",
+      "issuer": "Citi",
+      "network": "Mastercard",
+      "annualFee": 595,
+      "program": "aa",
+      "earn": {
+        "other": 1
+      },
+      "brand": {
+        "airline": "American",
+        "flightsMult": 4
+      }
+    },
+    {
+      "business": false,
+      "open": true,
+      "credits": [],
+      "perks": [
+        "First checked bag free"
+      ],
+      "verified": null,
+      "id": "citi-aa-platinum",
+      "name": "AAdvantage Platinum Select",
+      "issuer": "Citi",
+      "network": "Mastercard",
+      "annualFee": 99,
+      "program": "aa",
+      "earn": {
+        "dining": 2,
+        "gas": 2,
+        "other": 1
+      },
+      "brand": {
+        "airline": "American",
+        "flightsMult": 2
+      }
+    },
+    {
+      "business": false,
+      "open": true,
+      "credits": [
+        {
+          "id": "hotel",
+          "name": "Bilt Travel hotel credit",
+          "amount": 200,
+          "cadence": "semiannual",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.6
+        },
+        {
+          "id": "bilt-cash",
+          "name": "Annual Bilt Cash",
+          "amount": 200,
+          "cadence": "annual",
+          "basis": "cardmember",
+          "kind": "credit",
+          "ease": 0.8
+        }
+      ],
+      "perks": [
+        "Priority Pass",
+        "4% back in Bilt Cash on purchases"
+      ],
+      "verified": "2026-10-22",
+      "id": "bilt-palladium",
+      "name": "Bilt Palladium",
+      "issuer": "Bilt",
+      "network": "Mastercard",
+      "annualFee": 495,
+      "program": "bilt",
+      "earn": {
+        "rent": 1.25,
+        "other": 2
+      },
+      "notes": "Rent earning depends on monthly card spend"
+    },
+    {
+      "business": false,
+      "open": true,
+      "credits": [
+        {
+          "id": "hotel",
+          "name": "Bilt Travel hotel credit",
+          "amount": 50,
+          "cadence": "semiannual",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.5
+        }
+      ],
+      "perks": [],
+      "verified": "2026-10-22",
+      "id": "bilt-obsidian",
+      "name": "Bilt Obsidian",
+      "issuer": "Bilt",
+      "network": "Mastercard",
+      "annualFee": 95,
+      "program": "bilt",
+      "earn": {
+        "flights": 2,
+        "hotels": 2,
+        "travel": 2,
+        "rent": 1.25,
+        "other": 1
+      },
+      "choice": {
+        "categories": [
+          "dining",
+          "groceries"
+        ],
+        "picks": 1,
+        "mult": 3,
+        "cap": 25000
+      }
+    },
+    {
+      "business": false,
+      "open": true,
+      "credits": [],
+      "perks": [],
+      "verified": "2026-10-22",
+      "id": "bilt-blue",
+      "name": "Bilt Blue",
+      "issuer": "Bilt",
+      "network": "Mastercard",
+      "annualFee": 0,
+      "program": "bilt",
+      "earn": {
+        "rent": 1.25,
+        "other": 1
+      }
+    },
+    {
+      "business": false,
+      "open": true,
+      "credits": [
+        {
+          "id": "airline",
+          "name": "Airline incidental credit",
+          "amount": 100,
+          "cadence": "annual",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.6
+        }
+      ],
+      "perks": [],
+      "verified": "2026-10-22",
+      "id": "boa-premium-rewards",
+      "name": "Premium Rewards",
+      "issuer": "Bank of America",
+      "network": "Visa",
+      "annualFee": 95,
+      "program": "cash",
+      "earn": {
+        "flights": 2,
+        "hotels": 2,
+        "travel": 2,
+        "dining": 2,
+        "other": 1.5
+      },
+      "notes": "Preferred Rewards boosts earning up to 75%"
+    },
+    {
+      "business": false,
+      "open": true,
+      "credits": [
+        {
+          "id": "airline",
+          "name": "Airline incidental credit",
+          "amount": 300,
+          "cadence": "annual",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.6
+        },
+        {
+          "id": "lifestyle",
+          "name": "Lifestyle credit (rideshare, delivery, streaming, fitness)",
+          "amount": 150,
+          "cadence": "annual",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.8
+        }
+      ],
+      "perks": [
+        "Priority Pass"
+      ],
+      "verified": "2026-10-22",
+      "id": "boa-premium-rewards-elite",
+      "name": "Premium Rewards Elite",
+      "issuer": "Bank of America",
+      "network": "Visa",
+      "annualFee": 550,
+      "program": "cash",
+      "earn": {
+        "flights": 2,
+        "hotels": 2,
+        "travel": 2,
+        "dining": 2,
+        "other": 1.5
+      }
+    },
+    {
+      "business": false,
+      "open": true,
+      "credits": [],
+      "perks": [],
+      "verified": null,
+      "id": "boa-customized-cash",
+      "name": "Customized Cash Rewards",
+      "issuer": "Bank of America",
+      "network": "Visa",
+      "annualFee": 0,
+      "program": "cash",
+      "earn": {
+        "groceries": 2,
+        "other": 1
+      },
+      "caps": {
+        "groceries": 10000
+      },
+      "choice": {
+        "categories": [
+          "gas",
+          "amazon",
+          "dining",
+          "travel",
+          "drugstores"
+        ],
+        "picks": 1,
+        "mult": 3,
+        "cap": 10000
+      }
+    },
+    {
+      "business": false,
+      "open": true,
+      "credits": [],
+      "perks": [],
+      "verified": null,
+      "id": "wf-autograph",
+      "name": "Autograph",
+      "issuer": "Wells Fargo",
+      "network": "Visa",
+      "annualFee": 0,
+      "program": "cash",
+      "earn": {
+        "dining": 3,
+        "flights": 3,
+        "hotels": 3,
+        "travel": 3,
+        "gas": 3,
+        "streaming": 3,
+        "other": 1
+      }
+    },
+    {
+      "business": false,
+      "open": true,
+      "credits": [
+        {
+          "id": "airline",
+          "name": "Airline credit",
+          "amount": 50,
+          "cadence": "annual",
+          "basis": "cardmember",
+          "kind": "credit",
+          "ease": 0.8
+        }
+      ],
+      "perks": [],
+      "verified": null,
+      "id": "wf-autograph-journey",
+      "name": "Autograph Journey",
+      "issuer": "Wells Fargo",
+      "network": "Visa",
+      "annualFee": 95,
+      "program": "cash",
+      "earn": {
+        "hotels": 5,
+        "flights": 4,
+        "dining": 3,
+        "travel": 3,
+        "other": 1
+      }
+    },
+    {
+      "business": false,
+      "open": true,
+      "credits": [],
+      "perks": [],
+      "verified": null,
+      "id": "wf-active-cash",
+      "name": "Active Cash",
+      "issuer": "Wells Fargo",
+      "network": "Visa",
+      "annualFee": 0,
+      "program": "cash",
+      "earn": {
+        "other": 2
+      }
+    },
+    {
+      "business": false,
+      "open": true,
+      "credits": [],
+      "perks": [],
+      "verified": null,
+      "id": "discover-it",
+      "name": "Discover it Cash Back",
+      "issuer": "Discover",
+      "network": "Discover",
+      "annualFee": 0,
+      "program": "cash",
+      "earn": {
+        "other": 1
+      },
+      "notes": "5% rotating quarterly categories not modeled"
+    },
+    {
+      "business": false,
+      "open": true,
+      "credits": [],
+      "perks": [],
+      "verified": null,
+      "id": "apple-card",
+      "name": "Apple Card",
+      "issuer": "Goldman Sachs",
+      "network": "Mastercard",
+      "annualFee": 0,
+      "program": "cash",
+      "earn": {
+        "other": 2
+      },
+      "notes": "2% assumes Apple Pay; 3% at Apple and select merchants"
+    },
+    {
+      "business": false,
+      "open": true,
+      "credits": [],
+      "perks": [],
+      "verified": null,
+      "id": "usb-altitude-connect",
+      "name": "Altitude Connect",
+      "issuer": "U.S. Bank",
+      "network": "Visa",
+      "annualFee": 0,
+      "program": "cash",
+      "earn": {
+        "hotels": 4,
+        "travel": 4,
+        "gas": 4,
+        "dining": 2,
+        "groceries": 2,
+        "streaming": 2,
+        "other": 1
+      }
+    },
+    {
+      "business": false,
+      "open": true,
+      "credits": [],
+      "perks": [],
+      "verified": null,
+      "id": "alaska-summit",
+      "name": "Atmos Rewards Summit",
+      "issuer": "Bank of America",
+      "network": "Visa",
+      "annualFee": 395,
+      "program": "atmos",
+      "earn": {
+        "dining": 3,
+        "other": 1
+      },
+      "brand": {
+        "airline": "Alaska",
+        "flightsMult": 3
+      },
+      "notes": "Seeded with limited data; verify full terms"
+    },
+    {
+      "business": false,
+      "open": true,
+      "credits": [],
+      "perks": [],
+      "verified": null,
+      "id": "jetblue-premier",
+      "name": "JetBlue Premier",
+      "issuer": "Barclays",
+      "network": "Mastercard",
+      "annualFee": 499,
+      "program": "jetblue",
+      "earn": {
+        "dining": 2,
+        "groceries": 2,
+        "other": 1
+      },
+      "brand": {
+        "airline": "JetBlue",
+        "flightsMult": 6
+      },
+      "notes": "Seeded with limited data; verify full terms"
+    }
+  ]
+}
