@@ -61,6 +61,34 @@ export interface ChoiceBonus {
   cap?: number;
 }
 
+export const BENEFIT_CATS = ['lounge', 'status', 'travel', 'shopping', 'other'] as const;
+export type BenefitCat = (typeof BENEFIT_CATS)[number];
+
+/** Tags that let the app answer "which of my cards covers X?" across the wallet. */
+export const BENEFIT_TAGS = {
+  lounge: 'Lounge access',
+  'trip-delay': 'Trip delay',
+  'trip-cancel': 'Trip cancellation',
+  'rental-primary': 'Rental car (primary)',
+  'rental-secondary': 'Rental car (secondary)',
+  baggage: 'Lost or delayed bags',
+  evacuation: 'Emergency evacuation',
+  'free-bag': 'Free checked bag',
+  'global-entry': 'Global Entry / PreCheck credit',
+  'no-fx': 'No foreign transaction fee',
+  'fx-fee': 'Foreign transaction fee',
+  'cell-phone': 'Cell phone protection',
+  'purchase-protection': 'Purchase protection',
+  'extended-warranty': 'Extended warranty',
+} as const;
+export type BenefitTag = keyof typeof BENEFIT_TAGS;
+
+export interface Benefit {
+  cat: BenefitCat;
+  tag?: BenefitTag;
+  text: string;
+}
+
 export interface Card {
   id: string;
   name: string;
@@ -79,6 +107,10 @@ export interface Card {
   brand?: { airline?: string; hotel?: string; flightsMult?: number; hotelsMult?: number };
   credits: Credit[];
   perks: string[];
+  /** Non-cash benefits shown on the Perks tab (lounges, status, protections). Optional for older catalogs. */
+  benefits?: Benefit[];
+  /** ISO date the benefits list was last checked against the issuer's benefits guide; null = not yet */
+  benefitsVerified?: string | null;
   /** ISO date the card's terms were last checked against a source; null = seeded, not yet verified */
   verified: string | null;
   notes?: string;

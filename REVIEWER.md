@@ -11,7 +11,8 @@ It never trusts the update agent's sources or reasoning. It re-checks each chang
    - Open the issuer's own page for that card (not the URL the update agent cited, unless it is the issuer's page) and confirm the new value.
    - If the issuer page is unavailable, accept only if two independent reputable secondary sources published in the last 90 days agree.
    - Record: `card · field · old → new · CONFIRMED / NOT CONFIRMED · source URL`.
-4. Also confirm, by spot-check, three cards the PR marked `verified` without changing them.
+4. Benefit text changes count as changed values: re-check each on the issuer's benefits guide.
+5. Also confirm, by spot-check, three cards the PR marked `verified` without changing them.
 
 ## Merge rules (all must hold)
 

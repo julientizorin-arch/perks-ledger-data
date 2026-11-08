@@ -24,6 +24,15 @@ Runs weekly. It **proposes** changes; a human approves before anything ships.
 
 If nothing changed, do not open a PR; report "checked N cards, no changes".
 
+## Benefits (Perks tab)
+
+Each card has a `benefits` list of non-cash perks: `{ "cat": lounge|status|travel|shopping|other, "tag"?: ..., "text": "..." }`.
+Allowed tags are in `scripts/types.ts` (`BENEFIT_TAGS`). Keep texts short and factual, with limits where the issuer states them
+(e.g. "Trip delay insurance: 6+ hour delay (or overnight), up to $500 per trip").
+- Each run, also verify the `benefits` of the cards you check, against the issuer's Guide to Benefits or benefits page.
+- Set `benefitsVerified` to today's date on cards whose benefits you confirmed. Prioritise cards with `benefitsVerified: null`.
+- List benefit changes in the PR changelog like any other change.
+
 ## Rules
 
 - Do not delete a card users may hold; set `open: false` instead.

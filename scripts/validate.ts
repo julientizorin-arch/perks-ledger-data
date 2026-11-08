@@ -1,7 +1,7 @@
 // Validates src/data/cards.json (or a path passed as argv[2]).
 // The update agent must run this before proposing any catalog change.
 import { readFileSync } from 'node:fs';
-import { CATEGORIES, type Catalog } from './types';
+import { BENEFIT_CATS, BENEFIT_TAGS, CATEGORIES, type Catalog } from './types';
 
 const path = process.argv[2] ?? new URL('../cards.json', import.meta.url).pathname;
 const cat: Catalog = JSON.parse(readFileSync(path, 'utf8'));
@@ -27,6 +27,12 @@ for (const c of cat.cards) {
   if (c.brand?.airline && !cat.airlines.includes(c.brand.airline)) err(`${at}: airline ${c.brand.airline} not in airlines list`);
   if (c.brand?.hotel && !cat.hotels.includes(c.brand.hotel)) err(`${at}: hotel ${c.brand.hotel} not in hotels list`);
   if (c.verified !== null && !/^\d{4}-\d{2}-\d{2}$/.test(c.verified)) err(`${at}: verified must be ISO date or null`);
+  for (const b of c.benefits ?? []) {
+    if (!BENEFIT_CATS.includes(b.cat)) err(`${at}: unknown benefit cat ${b.cat}`);
+    if (b.tag && !(b.tag in BENEFIT_TAGS)) err(`${at}: unknown benefit tag ${b.tag}`);
+    if (!b.text?.trim()) err(`${at}: empty benefit text`);
+  }
+  if (c.benefitsVerified != null && !/^\d{4}-\d{2}-\d{2}$/.test(c.benefitsVerified)) err(`${at}: benefitsVerified must be ISO date or null`);
   const cids = new Set<string>();
   for (const cr of c.credits) {
     const cat2 = `${at} credit ${cr.id}`;
