@@ -1401,7 +1401,7 @@
           "kind": "credit",
           "ease": 0.6,
           "enroll": true,
-          "notes": "Each half needs $250 direct airline spend; promotion runs through 6/30/2027"
+          "notes": "Two periods: 6/4/2026–12/31/2026 and 1/1/2027–6/30/2027 (modeled as calendar halves). $250 direct airline spend per period. New cardmembers auto-enrolled; existing cardmembers activate once"
         }
       ],
       "perks": [
@@ -1460,13 +1460,13 @@
       "earn": {
         "dining": 2,
         "flights": 2,
-        "travel": 2,
         "other": 1
       },
       "brand": {
         "hotel": "Hyatt",
         "hotelsMult": 4
-      }
+      },
+      "notes": "2x also on local transit/commuting and fitness clubs (not modeled); other travel earns 1x"
     },
     {
       "business": false,
@@ -1489,7 +1489,7 @@
           "basis": "calendar",
           "kind": "credit",
           "ease": 0.6,
-          "notes": "After $250 direct airline spend; through 12/31/2027"
+          "notes": "After a single purchase of $250+ made directly with an airline; once per calendar year; through 12/31/2027"
         },
         {
           "id": "ihg-dining",
@@ -1769,7 +1769,7 @@
         "mult": 5,
         "cap": 6000
       },
-      "notes": "5% on your top eligible category each billing cycle (up to $500). Closed to new applicants since 2026-05-28; existing accounts unchanged"
+      "notes": "5% on your top eligible category each month (up to $500/mo). Closed to new applicants (issuer page shows 'Not Available')"
     },
     {
       "business": false,
@@ -2178,12 +2178,12 @@
       "open": true,
       "credits": [],
       "perks": [
-        "Global Companion Award (25,000 points) each account anniversary; 100k award after $60,000 spend",
+        "Global Companion Award (25,000 points) each account anniversary, plus an additional 100k award after $60,000 spend",
         "8 lounge passes per calendar year (2 per quarter)",
         "Free checked bag and preferred boarding for you + up to 6 guests",
         "10,000 status points each account anniversary",
         "Global Entry / TSA PreCheck credit (up to $120) every 4 years",
-        "Free same-day changes"
+        "Same-day confirmed change fees waived on Alaska flights (up to $75 per change)"
       ],
       "verified": "2026-11-08",
       "id": "alaska-summit",
