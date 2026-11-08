@@ -2080,8 +2080,8 @@
       "open": true,
       "credits": [],
       "perks": [
-        "Priority Pass Select membership (4 free visits)",
-        "Global Entry / TSA PreCheck credit every 4 years"
+        "12-month Priority Pass membership",
+        "Global Entry / TSA PreCheck application fee credit"
       ],
       "verified": "2026-11-08",
       "id": "usb-altitude-connect",
@@ -2103,7 +2103,7 @@
       "caps": {
         "gas": 4000
       },
-      "notes": "4x gas/EV cap is $1,000 per quarter (modeled as $4,000/yr). Earns U.S. Bank points: 1¢ toward travel, 0.8¢ as cash back"
+      "notes": "4x gas/EV cap is $1,000 per quarter (modeled as $4,000/yr). Earns U.S. Bank points"
     },
     {
       "business": false,
