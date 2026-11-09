@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "2026.10.22-1",
-  "updatedAt": "2026-10-22",
+  "dataVersion": "2026.11.09-1",
+  "updatedAt": "2026-11-09",
   "programs": [
     {
       "id": "amex-mr",
@@ -113,7 +113,7 @@
           "basis": "calendar",
           "kind": "credit",
           "ease": 0.6,
-          "notes": "Prepaid via Amex Travel"
+          "notes": "Prepaid via Amex Travel; Fine Hotels + Resorts needs 2+ nights from 2027-01-01"
         },
         {
           "id": "resy",
@@ -134,7 +134,7 @@
           "kind": "credit",
           "ease": 0.7,
           "enroll": true,
-          "notes": "Disney+, Hulu, ESPN+, NYT, YouTube TV and others"
+          "notes": "Disney+/Hulu/ESPN streaming, NYT, Paramount+, Peacock, WSJ, YouTube Premium and YouTube TV"
         },
         {
           "id": "uber-cash",
@@ -229,12 +229,12 @@
         }
       ],
       "perks": [
-        "Centurion, Priority Pass and Delta Sky Club (on Delta flights) access",
+        "Centurion and Priority Pass lounges; 10 Delta Sky Club visits/yr on Delta flights",
         "Hilton Gold and Marriott Gold status",
         "5x on prepaid hotels via Amex Travel",
         "Global Entry / TSA PreCheck credit every 4 years"
       ],
-      "verified": "2026-10-22",
+      "verified": "2026-11-09",
       "id": "amex-platinum",
       "name": "The Platinum Card",
       "issuer": "American Express",
@@ -244,7 +244,70 @@
       "earn": {
         "flights": 5,
         "other": 1
-      }
+      },
+      "caps": {
+        "flights": 500000
+      },
+      "benefits": [
+        {
+          "cat": "lounge",
+          "tag": "lounge",
+          "text": "Centurion Lounges, Priority Pass (enroll), 10 Delta Sky Club visits/yr on Delta flights"
+        },
+        {
+          "cat": "status",
+          "text": "Hilton Honors Gold and Marriott Bonvoy Gold Elite (enroll)"
+        },
+        {
+          "cat": "status",
+          "text": "Leaders Club Sterling (enroll)"
+        },
+        {
+          "cat": "travel",
+          "tag": "trip-delay",
+          "text": "Trip delay insurance: 6+ hour delay, up to $500 per trip, 2 claims per 12 months"
+        },
+        {
+          "cat": "travel",
+          "tag": "trip-cancel",
+          "text": "Trip cancellation/interruption: up to $10,000 per trip, $20,000 per 12 months"
+        },
+        {
+          "cat": "travel",
+          "tag": "rental-secondary",
+          "text": "Car rental loss & damage: secondary, no liability cover"
+        },
+        {
+          "cat": "travel",
+          "tag": "global-entry",
+          "text": "Global Entry ($120) or TSA PreCheck ($85) credit every 4 years"
+        },
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        },
+        {
+          "cat": "shopping",
+          "tag": "cell-phone",
+          "text": "Cell phone protection: up to $800 per claim, $50 deductible, 2 claims per 12 months"
+        },
+        {
+          "cat": "shopping",
+          "tag": "purchase-protection",
+          "text": "Purchase protection: 90 days, up to $10,000 per item, $50,000 per year"
+        },
+        {
+          "cat": "shopping",
+          "tag": "extended-warranty",
+          "text": "Extended warranty: +1 year on warranties of 5 years or less"
+        },
+        {
+          "cat": "shopping",
+          "text": "Return protection: up to $300 per item, $1,000 per year"
+        }
+      ],
+      "benefitsVerified": "2026-11-09"
     },
     {
       "business": false,
@@ -392,7 +455,8 @@
           "cadence": "semiannual",
           "basis": "calendar",
           "kind": "credit",
-          "ease": 0.6
+          "ease": 0.6,
+          "notes": "Prepaid via Amex Travel; Fine Hotels + Resorts needs 2+ nights from 2027-01-01"
         },
         {
           "id": "airline",
@@ -421,7 +485,8 @@
           "basis": "calendar",
           "kind": "credit",
           "ease": 0.7,
-          "enroll": true
+          "enroll": true,
+          "notes": "Limited to select wireless merchants from 2027-02-17"
         },
         {
           "id": "indeed",
@@ -452,13 +517,45 @@
           "basis": "calendar",
           "kind": "credit",
           "ease": 0.5
+        },
+        {
+          "id": "adobe",
+          "name": "Adobe credit",
+          "amount": 250,
+          "cadence": "annual",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.2,
+          "enroll": true,
+          "notes": "After $600+ US Adobe spend in the year"
+        },
+        {
+          "id": "chatgpt",
+          "name": "ChatGPT Business credit",
+          "amount": 300,
+          "cadence": "annual",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.3,
+          "enroll": true
+        },
+        {
+          "id": "zo",
+          "name": "ZO event space / Dining Club credit",
+          "amount": 500,
+          "cadence": "annual",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.05
         }
       ],
       "perks": [
-        "Centurion and Priority Pass lounges",
-        "1.5x on purchases of $5,000+"
+        "Centurion and Priority Pass lounges; 10 Delta Sky Club visits/yr (unlimited after $75k spend)",
+        "2x on purchases of $5,000+ and select business categories (up to $2M/yr)",
+        "5x on prepaid hotels via Amex Travel",
+        "After $250k calendar-year spend: $1,200 Amex Travel flight credit and $2,400 One AP credit the next year"
       ],
-      "verified": "2026-10-22",
+      "verified": "2026-11-09",
       "id": "amex-biz-platinum",
       "name": "Business Platinum Card",
       "issuer": "American Express",
@@ -468,7 +565,64 @@
       "earn": {
         "flights": 5,
         "other": 1
-      }
+      },
+      "benefits": [
+        {
+          "cat": "lounge",
+          "tag": "lounge",
+          "text": "Centurion Lounges, Priority Pass Select (enroll), 10 Delta Sky Club visits/yr (unlimited after $75k spend)"
+        },
+        {
+          "cat": "status",
+          "text": "Hilton Gold, Marriott Gold, Leaders Club Sterling (enroll); Avis, Hertz and National status"
+        },
+        {
+          "cat": "travel",
+          "tag": "trip-delay",
+          "text": "Trip delay insurance: 6+ hour delay, up to $500 per trip, 2 claims per 12 months"
+        },
+        {
+          "cat": "travel",
+          "tag": "trip-cancel",
+          "text": "Trip cancellation/interruption: up to $10,000 per trip, $20,000 per 12 months"
+        },
+        {
+          "cat": "travel",
+          "tag": "baggage",
+          "text": "Baggage insurance: up to $2,000 checked, $3,000 combined per trip"
+        },
+        {
+          "cat": "travel",
+          "tag": "rental-secondary",
+          "text": "Car rental loss & damage: secondary, no liability cover"
+        },
+        {
+          "cat": "travel",
+          "tag": "global-entry",
+          "text": "Global Entry ($120) or TSA PreCheck ($85) credit every 4 years"
+        },
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        },
+        {
+          "cat": "shopping",
+          "tag": "cell-phone",
+          "text": "Cell phone protection: up to $800 per claim, $50 deductible, 2 claims per 12 months"
+        },
+        {
+          "cat": "shopping",
+          "tag": "purchase-protection",
+          "text": "Purchase protection: 90 days, up to $10,000 per item, $50,000 per year"
+        },
+        {
+          "cat": "shopping",
+          "tag": "extended-warranty",
+          "text": "Extended warranty: +1 year on warranties of 5 years or less"
+        }
+      ],
+      "benefitsVerified": "2026-11-09"
     },
     {
       "business": true,
@@ -482,7 +636,8 @@
           "basis": "calendar",
           "kind": "credit",
           "ease": 0.7,
-          "enroll": true
+          "enroll": true,
+          "notes": "Grubhub, office supply stores and UPS.com"
         },
         {
           "id": "walmart",
@@ -492,10 +647,32 @@
           "basis": "calendar",
           "kind": "credit",
           "ease": 0.3
+        },
+        {
+          "id": "chatgpt",
+          "name": "ChatGPT Business credit",
+          "amount": 300,
+          "cadence": "annual",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.3,
+          "enroll": true
+        },
+        {
+          "id": "squarespace",
+          "name": "Squarespace credit",
+          "amount": 150,
+          "cadence": "annual",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.2,
+          "enroll": true
         }
       ],
-      "perks": [],
-      "verified": "2026-10-22",
+      "perks": [
+        "3x on flights and prepaid hotels via AmexTravel.com"
+      ],
+      "verified": "2026-11-09",
       "id": "amex-biz-gold",
       "name": "Business Gold Card",
       "issuer": "American Express",
@@ -509,14 +686,55 @@
         "categories": [
           "dining",
           "gas",
-          "travel",
-          "flights"
+          "travel"
         ],
         "picks": 2,
         "mult": 4,
         "cap": 150000
       },
-      "notes": "4x automatically applies to your top 2 eligible categories each month"
+      "notes": "4x automatically applies to your top 2 of 6 categories each billing cycle: US restaurants, US gas, transit (modeled as travel), US advertising, US electronics/software/cloud, US wireless (the last three have no catalog category)",
+      "benefits": [
+        {
+          "cat": "travel",
+          "tag": "trip-delay",
+          "text": "Trip delay insurance: 12+ hour delay, up to $300 per trip, 2 claims per 12 months"
+        },
+        {
+          "cat": "travel",
+          "tag": "baggage",
+          "text": "Baggage insurance: up to $1,250 carry-on, $500 checked"
+        },
+        {
+          "cat": "travel",
+          "tag": "rental-secondary",
+          "text": "Car rental loss & damage: secondary, no liability cover"
+        },
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        },
+        {
+          "cat": "travel",
+          "text": "The Hotel Collection: $100 on-property credit and room upgrade (2+ nights)"
+        },
+        {
+          "cat": "shopping",
+          "tag": "cell-phone",
+          "text": "Cell phone protection: up to $800 per claim, $50 deductible, 2 claims per 12 months"
+        },
+        {
+          "cat": "shopping",
+          "tag": "purchase-protection",
+          "text": "Purchase protection: 90 days, up to $1,000 per item, $50,000 per year"
+        },
+        {
+          "cat": "shopping",
+          "tag": "extended-warranty",
+          "text": "Extended warranty: +1 year on warranties of 5 years or less"
+        }
+      ],
+      "benefitsVerified": "2026-11-09"
     },
     {
       "business": false,
@@ -561,9 +779,10 @@
       ],
       "perks": [
         "Hilton Diamond status",
-        "$100 on-property credit at Waldorf Astoria / Conrad (2+ nights)"
+        "$100 on-property credit at Waldorf Astoria / Conrad (2+ nights)",
+        "Extra free night after $30k calendar-year spend, and another after $60k"
       ],
-      "verified": "2026-10-22",
+      "verified": "2026-11-09",
       "id": "amex-hilton-aspire",
       "name": "Hilton Honors Aspire",
       "issuer": "American Express",
@@ -579,7 +798,58 @@
       "brand": {
         "hotel": "Hilton",
         "hotelsMult": 14
-      }
+      },
+      "benefits": [
+        {
+          "cat": "status",
+          "text": "Hilton Honors Diamond status"
+        },
+        {
+          "cat": "status",
+          "text": "National Emerald Club Executive (enroll)"
+        },
+        {
+          "cat": "travel",
+          "tag": "trip-delay",
+          "text": "Trip delay insurance: 6+ hour delay, up to $500 per trip, 2 claims per 12 months"
+        },
+        {
+          "cat": "travel",
+          "tag": "trip-cancel",
+          "text": "Trip cancellation/interruption: up to $10,000 per trip, $20,000 per 12 months"
+        },
+        {
+          "cat": "travel",
+          "tag": "baggage",
+          "text": "Baggage insurance: up to $2,000 checked, $3,000 combined per trip"
+        },
+        {
+          "cat": "travel",
+          "tag": "rental-secondary",
+          "text": "Car rental loss & damage: secondary, no liability cover"
+        },
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        },
+        {
+          "cat": "shopping",
+          "tag": "cell-phone",
+          "text": "Cell phone protection: up to $800 per claim, $50 deductible, 2 claims per 12 months"
+        },
+        {
+          "cat": "shopping",
+          "tag": "purchase-protection",
+          "text": "Purchase protection: 90 days, up to $10,000 per item, $50,000 per year"
+        },
+        {
+          "cat": "shopping",
+          "tag": "extended-warranty",
+          "text": "Extended warranty: +1 year on warranties of 5 years or less"
+        }
+      ],
+      "benefitsVerified": "2026-11-09"
     },
     {
       "business": false,
@@ -669,7 +939,7 @@
         "Marriott Platinum Elite status",
         "$100 property credit at Ritz-Carlton / St. Regis (2+ nights)"
       ],
-      "verified": "2026-10-22",
+      "verified": "2026-11-09",
       "id": "amex-marriott-brilliant",
       "name": "Marriott Bonvoy Brilliant",
       "issuer": "American Express",
@@ -684,7 +954,64 @@
       "brand": {
         "hotel": "Marriott",
         "hotelsMult": 6
-      }
+      },
+      "benefits": [
+        {
+          "cat": "status",
+          "text": "Marriott Bonvoy Platinum Elite + 25 Elite Night Credits per calendar year"
+        },
+        {
+          "cat": "lounge",
+          "tag": "lounge",
+          "text": "Priority Pass Select, unlimited visits (enroll)"
+        },
+        {
+          "cat": "travel",
+          "tag": "global-entry",
+          "text": "Global Entry ($120) or TSA PreCheck ($85) credit every 4 years"
+        },
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        },
+        {
+          "cat": "travel",
+          "tag": "trip-delay",
+          "text": "Trip delay insurance: 6+ hour delay, up to $500 per trip, 2 claims per 12 months"
+        },
+        {
+          "cat": "travel",
+          "tag": "trip-cancel",
+          "text": "Trip cancellation/interruption: up to $10,000 per trip, $20,000 per 12 months"
+        },
+        {
+          "cat": "travel",
+          "tag": "baggage",
+          "text": "Baggage insurance: up to $2,000 checked, $3,000 combined per trip"
+        },
+        {
+          "cat": "travel",
+          "tag": "rental-secondary",
+          "text": "Car rental loss & damage: secondary, no liability cover"
+        },
+        {
+          "cat": "shopping",
+          "tag": "cell-phone",
+          "text": "Cell phone protection: up to $800 per claim, $50 deductible, 2 claims per 12 months"
+        },
+        {
+          "cat": "shopping",
+          "tag": "purchase-protection",
+          "text": "Purchase protection: 90 days, up to $10,000 per item, $50,000 per year"
+        },
+        {
+          "cat": "shopping",
+          "tag": "extended-warranty",
+          "text": "Extended warranty: +1 year on warranties of 5 years or less"
+        }
+      ],
+      "benefitsVerified": "2026-11-09"
     },
     {
       "business": false,
@@ -796,7 +1123,7 @@
       "perks": [
         "First checked bag free"
       ],
-      "verified": "2026-10-22",
+      "verified": "2026-11-09",
       "id": "amex-delta-platinum",
       "name": "Delta SkyMiles Platinum",
       "issuer": "American Express",
@@ -812,7 +1139,59 @@
       "brand": {
         "airline": "Delta",
         "flightsMult": 3
-      }
+      },
+      "benefits": [
+        {
+          "cat": "travel",
+          "tag": "free-bag",
+          "text": "First checked bag free on Delta"
+        },
+        {
+          "cat": "travel",
+          "tag": "global-entry",
+          "text": "Global Entry ($120) or TSA PreCheck ($85) credit every 4 years"
+        },
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        },
+        {
+          "cat": "travel",
+          "tag": "trip-delay",
+          "text": "Trip delay insurance: 12+ hour delay, up to $300 per trip, 2 claims per 12 months"
+        },
+        {
+          "cat": "travel",
+          "tag": "baggage",
+          "text": "Baggage insurance: up to $1,250 carry-on, $500 checked"
+        },
+        {
+          "cat": "travel",
+          "tag": "rental-secondary",
+          "text": "Car rental loss & damage: secondary"
+        },
+        {
+          "cat": "shopping",
+          "tag": "cell-phone",
+          "text": "Cell phone protection: up to $800 per claim, $50 deductible, 2 claims per 12 months"
+        },
+        {
+          "cat": "shopping",
+          "tag": "purchase-protection",
+          "text": "Purchase protection: 90 days, up to $1,000 per item, $50,000 per year"
+        },
+        {
+          "cat": "shopping",
+          "tag": "extended-warranty",
+          "text": "Extended warranty: +1 year"
+        },
+        {
+          "cat": "other",
+          "text": "20% back on Delta in-flight purchases"
+        }
+      ],
+      "benefitsVerified": "2026-11-09"
     },
     {
       "business": false,
@@ -858,10 +1237,10 @@
         }
       ],
       "perks": [
-        "Delta Sky Club access (visit limits apply)",
+        "Delta Sky Club: 15 visits per Medallion Year, unlimited after $75k calendar-year spend",
         "First checked bag free"
       ],
-      "verified": "2026-10-22",
+      "verified": "2026-11-09",
       "id": "amex-delta-reserve",
       "name": "Delta SkyMiles Reserve",
       "issuer": "American Express",
@@ -874,7 +1253,74 @@
       "brand": {
         "airline": "Delta",
         "flightsMult": 3
-      }
+      },
+      "benefits": [
+        {
+          "cat": "lounge",
+          "tag": "lounge",
+          "text": "Delta Sky Club: 15 visits per Medallion Year; unlimited after $75k calendar-year spend"
+        },
+        {
+          "cat": "lounge",
+          "tag": "lounge",
+          "text": "Centurion Lounge access when flying Delta on a ticket bought with the card"
+        },
+        {
+          "cat": "travel",
+          "tag": "free-bag",
+          "text": "First checked bag free on Delta"
+        },
+        {
+          "cat": "travel",
+          "tag": "global-entry",
+          "text": "Global Entry ($120) or TSA PreCheck ($85) credit every 4 years"
+        },
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        },
+        {
+          "cat": "travel",
+          "tag": "trip-delay",
+          "text": "Trip delay insurance: 6+ hour delay, up to $500 per trip, 2 claims per 12 months"
+        },
+        {
+          "cat": "travel",
+          "tag": "trip-cancel",
+          "text": "Trip cancellation/interruption: up to $10,000 per trip, $20,000 per 12 months"
+        },
+        {
+          "cat": "travel",
+          "tag": "baggage",
+          "text": "Baggage insurance: up to $1,250 carry-on, $500 checked"
+        },
+        {
+          "cat": "travel",
+          "tag": "rental-secondary",
+          "text": "Car rental loss & damage: secondary"
+        },
+        {
+          "cat": "shopping",
+          "tag": "cell-phone",
+          "text": "Cell phone protection: up to $800 per claim, $50 deductible, 2 claims per 12 months"
+        },
+        {
+          "cat": "shopping",
+          "tag": "purchase-protection",
+          "text": "Purchase protection: 90 days, up to $10,000 per item, $50,000 per year"
+        },
+        {
+          "cat": "shopping",
+          "tag": "extended-warranty",
+          "text": "Extended warranty: +1 year"
+        },
+        {
+          "cat": "other",
+          "text": "20% back on Delta in-flight food and drink"
+        }
+      ],
+      "benefitsVerified": "2026-11-09"
     },
     {
       "business": false,
@@ -892,12 +1338,12 @@
         {
           "id": "edit",
           "name": "The Edit hotel credit",
-          "amount": 250,
-          "cadence": "semiannual",
+          "amount": 500,
+          "cadence": "annual",
           "basis": "calendar",
           "kind": "credit",
           "ease": 0.5,
-          "notes": "Prepaid 2+ night stays via Chase Travel"
+          "notes": "Up to $250 per prepaid 2+ night booking with The Edit via Chase Travel, max $500 per calendar year"
         },
         {
           "id": "dining",
@@ -906,7 +1352,8 @@
           "cadence": "semiannual",
           "basis": "calendar",
           "kind": "credit",
-          "ease": 0.5
+          "ease": 0.5,
+          "notes": "Exclusive Tables via OpenTable; benefit term runs to 6/30/2030"
         },
         {
           "id": "stubhub",
@@ -916,17 +1363,18 @@
           "basis": "calendar",
           "kind": "credit",
           "ease": 0.4,
-          "enroll": true
+          "enroll": true,
+          "notes": "Through 12/31/2027; activation required"
         },
         {
           "id": "doordash",
           "name": "DoorDash",
-          "amount": 25,
+          "amount": 35,
           "cadence": "monthly",
           "basis": "calendar",
           "kind": "credit",
           "ease": 0.6,
-          "notes": "Some 2026 sources cite $35/mo; verify"
+          "notes": "$15 on any order + two $10 non-restaurant promos per month; needs DashPass (complimentary, activate by 12/31/2029)"
         },
         {
           "id": "lyft",
@@ -935,7 +1383,8 @@
           "cadence": "monthly",
           "basis": "calendar",
           "kind": "credit",
-          "ease": 0.5
+          "ease": 0.5,
+          "notes": "Through 9/30/2027"
         },
         {
           "id": "peloton",
@@ -945,18 +1394,19 @@
           "basis": "calendar",
           "kind": "credit",
           "ease": 0.2,
-          "enroll": true
+          "enroll": true,
+          "notes": "Through 12/31/2027"
         },
         {
           "id": "apple",
           "name": "Apple TV+ and Apple Music",
-          "amount": 288,
+          "amount": 324,
           "cadence": "annual",
           "basis": "calendar",
           "kind": "credit",
           "ease": 0.5,
           "enroll": true,
-          "notes": "Complimentary subscriptions, valued at retail"
+          "notes": "Complimentary subscriptions valued at retail; activate by 6/22/2027"
         }
       ],
       "perks": [
@@ -965,7 +1415,7 @@
         "5x on Lyft",
         "Primary rental car coverage"
       ],
-      "verified": "2026-10-22",
+      "verified": "2026-11-09",
       "id": "chase-sapphire-reserve",
       "name": "Sapphire Reserve",
       "issuer": "Chase",
@@ -978,7 +1428,64 @@
         "dining": 3,
         "travel": 1,
         "other": 1
-      }
+      },
+      "benefits": [
+        {
+          "cat": "lounge",
+          "tag": "lounge",
+          "text": "Priority Pass Select and Chase Sapphire Lounges, 2 guests free"
+        },
+        {
+          "cat": "status",
+          "text": "IHG One Rewards Platinum Elite through 12/31/2027"
+        },
+        {
+          "cat": "travel",
+          "tag": "rental-primary",
+          "text": "Primary auto rental CDW up to $75,000"
+        },
+        {
+          "cat": "travel",
+          "tag": "trip-cancel",
+          "text": "Trip cancellation/interruption: up to $10,000 per traveler, $20,000 per trip"
+        },
+        {
+          "cat": "travel",
+          "tag": "trip-delay",
+          "text": "Trip delay: 6+ hours or overnight, up to $500 per traveler"
+        },
+        {
+          "cat": "travel",
+          "tag": "baggage",
+          "text": "Baggage delay $100/day for 5 days; lost luggage up to $3,000 per traveler"
+        },
+        {
+          "cat": "travel",
+          "tag": "evacuation",
+          "text": "Emergency evacuation and transportation up to $100,000"
+        },
+        {
+          "cat": "travel",
+          "tag": "global-entry",
+          "text": "Global Entry / TSA PreCheck / NEXUS credit up to $120 every 4 years"
+        },
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        },
+        {
+          "cat": "shopping",
+          "tag": "purchase-protection",
+          "text": "Purchase protection: 120 days, up to $10,000 per item"
+        },
+        {
+          "cat": "shopping",
+          "tag": "extended-warranty",
+          "text": "Extended warranty: +1 year on US warranties of 3 years or less"
+        }
+      ],
+      "benefitsVerified": "2026-11-09"
     },
     {
       "business": false,
@@ -1215,7 +1722,8 @@
             8,
             8,
             12
-          ]
+          ],
+          "enroll": true
         },
         {
           "id": "instacart",
@@ -1224,7 +1732,8 @@
           "cadence": "monthly",
           "basis": "calendar",
           "kind": "credit",
-          "ease": 0.4
+          "ease": 0.4,
+          "notes": "$10 + $5 credits per month; needs Instacart+ (complimentary through 12/31/2027); ends 12/31/2027"
         },
         {
           "id": "renowned",
@@ -1234,12 +1743,41 @@
           "basis": "cardmember",
           "kind": "credit",
           "ease": 0.3
+        },
+        {
+          "id": "jsx",
+          "name": "JSX credit",
+          "amount": 150,
+          "cadence": "annual",
+          "basis": "cardmember",
+          "kind": "credit",
+          "ease": 0.1
+        },
+        {
+          "id": "avis",
+          "name": "Avis / Budget TravelBank cash",
+          "amount": 80,
+          "cadence": "annual",
+          "basis": "cardmember",
+          "kind": "credit",
+          "ease": 0.2,
+          "notes": "$40 per rental, up to 2 per year"
+        },
+        {
+          "id": "award-discount",
+          "name": "Award flight discount",
+          "amount": 10000,
+          "cadence": "annual",
+          "basis": "cardmember",
+          "kind": "points",
+          "ease": 0.7,
+          "notes": "10,000 miles off an award booking each anniversary"
         }
       ],
       "perks": [
         "First and second checked bags free"
       ],
-      "verified": "2026-10-22",
+      "verified": "2026-11-09",
       "id": "chase-united-quest",
       "name": "United Quest",
       "issuer": "Chase",
@@ -1255,8 +1793,60 @@
       },
       "brand": {
         "airline": "United",
-        "flightsMult": 3
-      }
+        "flightsMult": 4
+      },
+      "benefits": [
+        {
+          "cat": "travel",
+          "tag": "free-bag",
+          "text": "First and second checked bags free for cardmember + 1 companion"
+        },
+        {
+          "cat": "status",
+          "text": "1,000 PQP yearly + 1 PQP per $20 spent (cap 18,000); Group 2 boarding"
+        },
+        {
+          "cat": "travel",
+          "tag": "trip-cancel",
+          "text": "Trip cancellation/interruption: up to $1,500 per traveler, $6,000 per trip"
+        },
+        {
+          "cat": "travel",
+          "tag": "trip-delay",
+          "text": "Trip delay: 12+ hours or overnight, up to $500 per traveler"
+        },
+        {
+          "cat": "travel",
+          "tag": "baggage",
+          "text": "Baggage delay $100/day for 3 days; lost luggage up to $3,000"
+        },
+        {
+          "cat": "travel",
+          "tag": "rental-primary",
+          "text": "Primary auto rental CDW up to $60,000"
+        },
+        {
+          "cat": "travel",
+          "tag": "global-entry",
+          "text": "Global Entry / TSA PreCheck / NEXUS credit up to $120 every 4 years"
+        },
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        },
+        {
+          "cat": "shopping",
+          "tag": "purchase-protection",
+          "text": "Purchase protection: 120 days, up to $10,000 per item"
+        },
+        {
+          "cat": "shopping",
+          "tag": "extended-warranty",
+          "text": "Extended warranty: +1 year on US warranties of 3 years or less"
+        }
+      ],
+      "benefitsVerified": "2026-11-09"
     },
     {
       "business": false,
@@ -1283,7 +1873,8 @@
             12,
             12,
             18
-          ]
+          ],
+          "enroll": true
         },
         {
           "id": "instacart",
@@ -1292,7 +1883,8 @@
           "cadence": "monthly",
           "basis": "calendar",
           "kind": "credit",
-          "ease": 0.4
+          "ease": 0.4,
+          "notes": "Two $10 credits per month; needs Instacart+ (complimentary through 12/31/2027); ends 12/31/2027"
         },
         {
           "id": "renowned",
@@ -1302,13 +1894,22 @@
           "basis": "cardmember",
           "kind": "credit",
           "ease": 0.3
+        },
+        {
+          "id": "jsx",
+          "name": "JSX credit",
+          "amount": 200,
+          "cadence": "annual",
+          "basis": "cardmember",
+          "kind": "credit",
+          "ease": 0.1
         }
       ],
       "perks": [
         "United Club membership",
         "Premier Access, two free checked bags"
       ],
-      "verified": "2026-10-22",
+      "verified": "2026-11-09",
       "id": "chase-united-club",
       "name": "United Club Card",
       "issuer": "Chase",
@@ -1323,8 +1924,69 @@
       },
       "brand": {
         "airline": "United",
-        "flightsMult": 4
-      }
+        "flightsMult": 5
+      },
+      "benefits": [
+        {
+          "cat": "lounge",
+          "tag": "lounge",
+          "text": "United Club membership + 1 adult guest; All Access (Star Alliance lounges) at Premier Gold or $50k spend"
+        },
+        {
+          "cat": "status",
+          "text": "Premier Access; 1,500 bonus PQP + 1 PQP per $15 spent (cap 28,000 per calendar year)"
+        },
+        {
+          "cat": "travel",
+          "tag": "free-bag",
+          "text": "First and second checked bags free for cardmember + 1 companion"
+        },
+        {
+          "cat": "travel",
+          "tag": "trip-cancel",
+          "text": "Trip cancellation/interruption: up to $10,000 per traveler, $20,000 per trip"
+        },
+        {
+          "cat": "travel",
+          "tag": "trip-delay",
+          "text": "Trip delay: 12+ hours or overnight, up to $500 per traveler"
+        },
+        {
+          "cat": "travel",
+          "tag": "baggage",
+          "text": "Baggage delay $100/day for 3 days; lost luggage up to $3,000"
+        },
+        {
+          "cat": "travel",
+          "tag": "rental-primary",
+          "text": "Primary auto rental CDW up to $60,000"
+        },
+        {
+          "cat": "travel",
+          "tag": "global-entry",
+          "text": "Global Entry / TSA PreCheck / NEXUS credit up to $120 every 4 years"
+        },
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        },
+        {
+          "cat": "shopping",
+          "tag": "purchase-protection",
+          "text": "Purchase protection: 120 days, up to $10,000 per item"
+        },
+        {
+          "cat": "shopping",
+          "tag": "extended-warranty",
+          "text": "Extended warranty: +1 year on US warranties of 3 years or less"
+        },
+        {
+          "cat": "other",
+          "text": "25% back on United inflight purchases and United Club premium drinks"
+        }
+      ],
+      "benefitsVerified": "2026-11-09"
     },
     {
       "business": false,
@@ -1506,7 +2168,7 @@
         "Capital One Lounges and Priority Pass (guests paid since Feb 2026)",
         "10x hotels / cars and 5x flights via Capital One Travel"
       ],
-      "verified": "2026-10-22",
+      "verified": "2026-11-09",
       "id": "c1-venture-x",
       "name": "Venture X",
       "issuer": "Capital One",
@@ -1515,7 +2177,28 @@
       "program": "c1-miles",
       "earn": {
         "other": 2
-      }
+      },
+      "benefits": [
+        {
+          "cat": "lounge",
+          "tag": "lounge",
+          "text": "Capital One Lounges and Priority Pass (enroll)"
+        },
+        {
+          "cat": "status",
+          "text": "Hertz Gold Plus Rewards upgrade (enroll)"
+        },
+        {
+          "cat": "travel",
+          "tag": "global-entry",
+          "text": "Global Entry / TSA PreCheck credit up to $120 every 4 years"
+        },
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        }
+      ]
     },
     {
       "business": false,
@@ -1608,7 +2291,7 @@
         "12x hotels / cars via Citi Travel",
         "6x dining Fri–Sat nights"
       ],
-      "verified": "2026-10-22",
+      "verified": "2026-11-09",
       "id": "citi-strata-elite",
       "name": "Strata Elite",
       "issuer": "Citi",
@@ -1618,7 +2301,29 @@
       "earn": {
         "dining": 3,
         "other": 1.5
-      }
+      },
+      "benefits": [
+        {
+          "cat": "lounge",
+          "tag": "lounge",
+          "text": "Priority Pass Select for cardholder and authorized users, up to 2 guests"
+        },
+        {
+          "cat": "lounge",
+          "tag": "lounge",
+          "text": "4 Admirals Club passes per calendar year"
+        },
+        {
+          "cat": "travel",
+          "tag": "global-entry",
+          "text": "Global Entry / TSA PreCheck credit up to $120 every 4 years"
+        },
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        }
+      ]
     },
     {
       "business": false,
@@ -1790,16 +2495,17 @@
           "name": "Annual Bilt Cash",
           "amount": 200,
           "cadence": "annual",
-          "basis": "cardmember",
+          "basis": "calendar",
           "kind": "credit",
-          "ease": 0.8
+          "ease": 0.8,
+          "notes": "Deposited at approval, then each January 1; expires after 12 months"
         }
       ],
       "perks": [
         "Priority Pass",
         "4% back in Bilt Cash on purchases"
       ],
-      "verified": "2026-10-22",
+      "verified": "2026-11-09",
       "id": "bilt-palladium",
       "name": "Bilt Palladium",
       "issuer": "Bilt",
@@ -1810,7 +2516,19 @@
         "rent": 1.25,
         "other": 2
       },
-      "notes": "Rent earning depends on monthly card spend"
+      "notes": "Rent earning depends on monthly card spend",
+      "benefits": [
+        {
+          "cat": "lounge",
+          "tag": "lounge",
+          "text": "Priority Pass for cardholder + 2 guests; authorized users too"
+        },
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        }
+      ]
     },
     {
       "business": false,
@@ -1977,7 +2695,7 @@
       "open": true,
       "credits": [],
       "perks": [],
-      "verified": null,
+      "verified": "2026-11-09",
       "id": "wf-autograph",
       "name": "Autograph",
       "issuer": "Wells Fargo",
@@ -1992,7 +2710,25 @@
         "gas": 3,
         "streaming": 3,
         "other": 1
-      }
+      },
+      "notes": "Also 3x on transit and phone plans (no catalog category). Earns Wells Fargo Rewards points",
+      "benefits": [
+        {
+          "cat": "shopping",
+          "tag": "cell-phone",
+          "text": "Cell phone protection: up to $600 per claim, $25 deductible, 2 claims per 12 months (bill paid with card)"
+        },
+        {
+          "cat": "travel",
+          "tag": "rental-secondary",
+          "text": "Auto rental CDW: secondary"
+        },
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        }
+      ]
     },
     {
       "business": false,
@@ -2005,11 +2741,12 @@
           "cadence": "annual",
           "basis": "cardmember",
           "kind": "credit",
-          "ease": 0.8
+          "ease": 0.8,
+          "notes": "First airline purchase of $50+ each year; no enrollment"
         }
       ],
       "perks": [],
-      "verified": null,
+      "verified": "2026-11-09",
       "id": "wf-autograph-journey",
       "name": "Autograph Journey",
       "issuer": "Wells Fargo",
@@ -2022,14 +2759,46 @@
         "dining": 3,
         "travel": 3,
         "other": 1
-      }
+      },
+      "benefits": [
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        },
+        {
+          "cat": "travel",
+          "tag": "trip-cancel",
+          "text": "Trip cancellation/interruption: up to $15,000 per traveler per trip, $20,000 per 12 months (secondary)"
+        },
+        {
+          "cat": "travel",
+          "tag": "baggage",
+          "text": "Lost baggage: up to $3,000 per trip (secondary)"
+        },
+        {
+          "cat": "travel",
+          "tag": "rental-secondary",
+          "text": "Auto rental CDW up to $50,000: secondary in US, primary abroad"
+        },
+        {
+          "cat": "travel",
+          "text": "Travel accident insurance up to $1,000,000"
+        },
+        {
+          "cat": "shopping",
+          "tag": "cell-phone",
+          "text": "Cell phone protection: up to $1,000 per claim, $25 deductible, 2 claims and $2,000 per 12 months"
+        }
+      ],
+      "benefitsVerified": "2026-11-09"
     },
     {
       "business": false,
       "open": true,
       "credits": [],
       "perks": [],
-      "verified": null,
+      "verified": "2026-11-09",
       "id": "wf-active-cash",
       "name": "Active Cash",
       "issuer": "Wells Fargo",
@@ -2038,14 +2807,26 @@
       "program": "cash",
       "earn": {
         "other": 2
-      }
+      },
+      "benefits": [
+        {
+          "cat": "shopping",
+          "tag": "cell-phone",
+          "text": "Cell phone protection: up to $600 per claim, $25 deductible, 2 claims per 12 months (bill paid with card)"
+        },
+        {
+          "cat": "travel",
+          "tag": "rental-secondary",
+          "text": "Auto rental CDW: secondary"
+        }
+      ]
     },
     {
       "business": false,
       "open": true,
       "credits": [],
       "perks": [],
-      "verified": null,
+      "verified": "2026-11-09",
       "id": "discover-it",
       "name": "Discover it Cash Back",
       "issuer": "Discover",
@@ -2055,7 +2836,7 @@
       "earn": {
         "other": 1
       },
-      "notes": "5% rotating quarterly categories not modeled"
+      "notes": "5% rotating quarterly categories (activation, $1,500 quarterly cap) not modeled; accounts are moving to Capital One through 2027"
     },
     {
       "business": false,
