@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "2026.11.08-2",
+  "dataVersion": "2026.11.08-3",
   "updatedAt": "2026-11-08",
   "programs": [
     {
@@ -244,7 +244,77 @@
       "earn": {
         "flights": 5,
         "other": 1
-      }
+      },
+      "benefits": [
+        {
+          "cat": "lounge",
+          "tag": "lounge",
+          "text": "Amex Global Lounge Collection: Centurion Lounges, Priority Pass Select, Escape, Plaza Premium"
+        },
+        {
+          "cat": "lounge",
+          "tag": "lounge",
+          "text": "Delta Sky Club when flying Delta (annual visit limit unless you spend $75,000+)"
+        },
+        {
+          "cat": "status",
+          "text": "Hilton Honors Gold"
+        },
+        {
+          "cat": "status",
+          "text": "Marriott Bonvoy Gold Elite"
+        },
+        {
+          "cat": "status",
+          "text": "Rental car status with Hertz, Avis and National"
+        },
+        {
+          "cat": "travel",
+          "tag": "global-entry",
+          "text": "Global Entry or TSA PreCheck fee credit"
+        },
+        {
+          "cat": "travel",
+          "tag": "trip-delay",
+          "text": "Trip delay insurance: 6+ hour delay (or overnight), up to $500 per trip"
+        },
+        {
+          "cat": "travel",
+          "tag": "trip-cancel",
+          "text": "Trip cancellation / interruption: up to $10,000 per trip"
+        },
+        {
+          "cat": "travel",
+          "tag": "baggage",
+          "text": "Baggage insurance for lost or damaged bags"
+        },
+        {
+          "cat": "travel",
+          "tag": "rental-secondary",
+          "text": "Secondary rental car coverage; optional Premium Car Rental Protection is primary for a flat fee"
+        },
+        {
+          "cat": "shopping",
+          "tag": "cell-phone",
+          "text": "Cell phone protection: up to $800 per claim, $50 deductible, 2 claims a year (pay your phone bill with the card)"
+        },
+        {
+          "cat": "shopping",
+          "tag": "purchase-protection",
+          "text": "Purchase protection against damage or theft"
+        },
+        {
+          "cat": "shopping",
+          "tag": "extended-warranty",
+          "text": "Extended warranty on eligible purchases"
+        },
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        }
+      ],
+      "benefitsVerified": null
     },
     {
       "business": false,
@@ -310,7 +380,44 @@
       "caps": {
         "dining": 50000,
         "groceries": 25000
-      }
+      },
+      "benefits": [
+        {
+          "cat": "travel",
+          "tag": "trip-delay",
+          "text": "Trip delay insurance: 12+ hour delay (or overnight), up to $300 per trip"
+        },
+        {
+          "cat": "travel",
+          "tag": "baggage",
+          "text": "Lost / delayed baggage coverage"
+        },
+        {
+          "cat": "travel",
+          "tag": "rental-secondary",
+          "text": "Secondary rental car damage coverage"
+        },
+        {
+          "cat": "shopping",
+          "tag": "purchase-protection",
+          "text": "Purchase protection against damage or theft"
+        },
+        {
+          "cat": "shopping",
+          "tag": "extended-warranty",
+          "text": "Extended warranty on eligible purchases"
+        },
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        },
+        {
+          "cat": "other",
+          "text": "Hotel Collection: $100 property credit on 2+ night stays booked via Amex Travel"
+        }
+      ],
+      "benefitsVerified": null
     },
     {
       "business": false,
@@ -344,7 +451,30 @@
       },
       "caps": {
         "groceries": 6000
-      }
+      },
+      "benefits": [
+        {
+          "cat": "travel",
+          "tag": "rental-secondary",
+          "text": "Secondary rental car damage coverage"
+        },
+        {
+          "cat": "shopping",
+          "tag": "purchase-protection",
+          "text": "Purchase protection against damage or theft"
+        },
+        {
+          "cat": "shopping",
+          "tag": "extended-warranty",
+          "text": "Extended warranty on eligible purchases"
+        },
+        {
+          "cat": "travel",
+          "tag": "fx-fee",
+          "text": "Charges foreign transaction fees — leave it at home abroad"
+        }
+      ],
+      "benefitsVerified": null
     },
     {
       "business": false,
@@ -379,7 +509,30 @@
         "groceries": 6000,
         "gas": 6000,
         "amazon": 6000
-      }
+      },
+      "benefits": [
+        {
+          "cat": "travel",
+          "tag": "rental-secondary",
+          "text": "Secondary rental car damage coverage"
+        },
+        {
+          "cat": "shopping",
+          "tag": "purchase-protection",
+          "text": "Purchase protection against damage or theft"
+        },
+        {
+          "cat": "shopping",
+          "tag": "extended-warranty",
+          "text": "Extended warranty on eligible purchases"
+        },
+        {
+          "cat": "travel",
+          "tag": "fx-fee",
+          "text": "Charges foreign transaction fees — leave it at home abroad"
+        }
+      ],
+      "benefitsVerified": null
     },
     {
       "business": true,
@@ -468,7 +621,73 @@
       "earn": {
         "flights": 5,
         "other": 1
-      }
+      },
+      "benefits": [
+        {
+          "cat": "lounge",
+          "tag": "lounge",
+          "text": "Amex Global Lounge Collection: Centurion Lounges, Priority Pass Select, Escape, Plaza Premium"
+        },
+        {
+          "cat": "lounge",
+          "tag": "lounge",
+          "text": "Delta Sky Club when flying Delta (annual visit limit)"
+        },
+        {
+          "cat": "status",
+          "text": "Hilton Honors Gold"
+        },
+        {
+          "cat": "status",
+          "text": "Marriott Bonvoy Gold Elite"
+        },
+        {
+          "cat": "travel",
+          "tag": "global-entry",
+          "text": "Global Entry or TSA PreCheck fee credit"
+        },
+        {
+          "cat": "travel",
+          "tag": "trip-delay",
+          "text": "Trip delay insurance: 6+ hour delay (or overnight), up to $500 per trip"
+        },
+        {
+          "cat": "travel",
+          "tag": "trip-cancel",
+          "text": "Trip cancellation / interruption insurance"
+        },
+        {
+          "cat": "travel",
+          "tag": "baggage",
+          "text": "Lost / delayed baggage coverage"
+        },
+        {
+          "cat": "travel",
+          "tag": "rental-secondary",
+          "text": "Secondary rental car damage coverage"
+        },
+        {
+          "cat": "shopping",
+          "tag": "cell-phone",
+          "text": "Cell phone protection: up to $800 per claim, $50 deductible, 2 claims a year (pay your phone bill with the card)"
+        },
+        {
+          "cat": "shopping",
+          "tag": "purchase-protection",
+          "text": "Purchase protection against damage or theft"
+        },
+        {
+          "cat": "shopping",
+          "tag": "extended-warranty",
+          "text": "Extended warranty on eligible purchases"
+        },
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        }
+      ],
+      "benefitsVerified": null
     },
     {
       "business": true,
@@ -516,7 +735,40 @@
         "mult": 4,
         "cap": 150000
       },
-      "notes": "4x automatically applies to your top 2 eligible categories each month"
+      "notes": "4x automatically applies to your top 2 eligible categories each month",
+      "benefits": [
+        {
+          "cat": "travel",
+          "tag": "trip-delay",
+          "text": "Trip delay insurance: 12+ hour delay (or overnight), up to $300 per trip"
+        },
+        {
+          "cat": "travel",
+          "tag": "baggage",
+          "text": "Lost / delayed baggage coverage"
+        },
+        {
+          "cat": "travel",
+          "tag": "rental-secondary",
+          "text": "Secondary rental car damage coverage"
+        },
+        {
+          "cat": "shopping",
+          "tag": "purchase-protection",
+          "text": "Purchase protection against damage or theft"
+        },
+        {
+          "cat": "shopping",
+          "tag": "extended-warranty",
+          "text": "Extended warranty on eligible purchases"
+        },
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        }
+      ],
+      "benefitsVerified": null
     },
     {
       "business": false,
@@ -579,7 +831,62 @@
       "brand": {
         "hotel": "Hilton",
         "hotelsMult": 14
-      }
+      },
+      "benefits": [
+        {
+          "cat": "status",
+          "text": "Hilton Honors Diamond"
+        },
+        {
+          "cat": "lounge",
+          "tag": "lounge",
+          "text": "Priority Pass Select"
+        },
+        {
+          "cat": "status",
+          "text": "National Car Rental Emerald Club Executive"
+        },
+        {
+          "cat": "other",
+          "text": "$100 on-property credit at Waldorf Astoria and Conrad (2+ nights)"
+        },
+        {
+          "cat": "travel",
+          "tag": "trip-delay",
+          "text": "Trip delay insurance: 6+ hour delay (or overnight), up to $500 per trip"
+        },
+        {
+          "cat": "travel",
+          "tag": "trip-cancel",
+          "text": "Trip cancellation / interruption insurance"
+        },
+        {
+          "cat": "travel",
+          "tag": "baggage",
+          "text": "Lost / delayed baggage coverage"
+        },
+        {
+          "cat": "travel",
+          "tag": "rental-secondary",
+          "text": "Secondary rental car damage coverage"
+        },
+        {
+          "cat": "shopping",
+          "tag": "cell-phone",
+          "text": "Cell phone protection: up to $800 per claim, $50 deductible, 2 claims a year (pay your phone bill with the card)"
+        },
+        {
+          "cat": "shopping",
+          "tag": "purchase-protection",
+          "text": "Purchase protection against damage or theft"
+        },
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        }
+      ],
+      "benefitsVerified": null
     },
     {
       "business": false,
@@ -615,7 +922,29 @@
       "brand": {
         "hotel": "Hilton",
         "hotelsMult": 12
-      }
+      },
+      "benefits": [
+        {
+          "cat": "status",
+          "text": "Hilton Honors Gold (Diamond after $40,000 calendar-year spend)"
+        },
+        {
+          "cat": "travel",
+          "tag": "rental-secondary",
+          "text": "Secondary rental car damage coverage"
+        },
+        {
+          "cat": "shopping",
+          "tag": "purchase-protection",
+          "text": "Purchase protection against damage or theft"
+        },
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        }
+      ],
+      "benefitsVerified": null
     },
     {
       "business": false,
@@ -641,7 +970,24 @@
       "brand": {
         "hotel": "Hilton",
         "hotelsMult": 7
-      }
+      },
+      "benefits": [
+        {
+          "cat": "status",
+          "text": "Hilton Honors Silver (Gold after $20,000 calendar-year spend)"
+        },
+        {
+          "cat": "travel",
+          "tag": "rental-secondary",
+          "text": "Secondary rental car damage coverage"
+        },
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        }
+      ],
+      "benefitsVerified": null
     },
     {
       "business": false,
@@ -685,7 +1031,67 @@
       "brand": {
         "hotel": "Marriott",
         "hotelsMult": 6
-      }
+      },
+      "benefits": [
+        {
+          "cat": "status",
+          "text": "Marriott Bonvoy Platinum Elite"
+        },
+        {
+          "cat": "lounge",
+          "tag": "lounge",
+          "text": "Priority Pass Select"
+        },
+        {
+          "cat": "other",
+          "text": "25 Elite Night Credits a year"
+        },
+        {
+          "cat": "other",
+          "text": "$100 property credit at Ritz-Carlton and St. Regis (2+ nights)"
+        },
+        {
+          "cat": "travel",
+          "tag": "global-entry",
+          "text": "Global Entry or TSA PreCheck fee credit"
+        },
+        {
+          "cat": "travel",
+          "tag": "trip-delay",
+          "text": "Trip delay insurance: 6+ hour delay (or overnight), up to $500 per trip"
+        },
+        {
+          "cat": "travel",
+          "tag": "trip-cancel",
+          "text": "Trip cancellation / interruption insurance"
+        },
+        {
+          "cat": "travel",
+          "tag": "baggage",
+          "text": "Lost / delayed baggage coverage"
+        },
+        {
+          "cat": "travel",
+          "tag": "rental-secondary",
+          "text": "Secondary rental car damage coverage"
+        },
+        {
+          "cat": "shopping",
+          "tag": "cell-phone",
+          "text": "Cell phone protection: up to $800 per claim, $50 deductible, 2 claims a year (pay your phone bill with the card)"
+        },
+        {
+          "cat": "shopping",
+          "tag": "purchase-protection",
+          "text": "Purchase protection against damage or theft"
+        },
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        }
+      ],
+      "benefitsVerified": null
     },
     {
       "business": false,
@@ -716,7 +1122,38 @@
         "hotel": "Marriott",
         "hotelsMult": 6
       },
-      "notes": "4x cap is $15,000 combined across dining and U.S. supermarkets per calendar year (modeled per category)"
+      "notes": "4x cap is $15,000 combined across dining and U.S. supermarkets per calendar year (modeled per category)",
+      "benefits": [
+        {
+          "cat": "status",
+          "text": "Marriott Bonvoy Gold Elite"
+        },
+        {
+          "cat": "other",
+          "text": "15 Elite Night Credits a year"
+        },
+        {
+          "cat": "travel",
+          "tag": "trip-delay",
+          "text": "Trip delay insurance: 12+ hour delay (or overnight), up to $300 per trip"
+        },
+        {
+          "cat": "travel",
+          "tag": "rental-secondary",
+          "text": "Secondary rental car damage coverage"
+        },
+        {
+          "cat": "shopping",
+          "tag": "purchase-protection",
+          "text": "Purchase protection against damage or theft"
+        },
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        }
+      ],
+      "benefitsVerified": null
     },
     {
       "business": false,
@@ -751,7 +1188,34 @@
       "brand": {
         "airline": "Delta",
         "flightsMult": 2
-      }
+      },
+      "benefits": [
+        {
+          "cat": "travel",
+          "tag": "free-bag",
+          "text": "First checked bag free on Delta (you + up to 8 companions)"
+        },
+        {
+          "cat": "other",
+          "text": "Priority boarding (Zone 5) and 20% back on inflight purchases"
+        },
+        {
+          "cat": "travel",
+          "tag": "rental-secondary",
+          "text": "Secondary rental car damage coverage"
+        },
+        {
+          "cat": "shopping",
+          "tag": "purchase-protection",
+          "text": "Purchase protection against damage or theft"
+        },
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        }
+      ],
+      "benefitsVerified": null
     },
     {
       "business": false,
@@ -815,7 +1279,54 @@
       "brand": {
         "airline": "Delta",
         "flightsMult": 3
-      }
+      },
+      "benefits": [
+        {
+          "cat": "travel",
+          "tag": "free-bag",
+          "text": "First checked bag free on Delta (you + up to 8 companions)"
+        },
+        {
+          "cat": "status",
+          "text": "Medallion Qualification Dollars head start each year and MQDs from spend"
+        },
+        {
+          "cat": "travel",
+          "tag": "global-entry",
+          "text": "Global Entry or TSA PreCheck fee credit"
+        },
+        {
+          "cat": "travel",
+          "tag": "trip-delay",
+          "text": "Trip delay insurance: 12+ hour delay (or overnight), up to $300 per trip"
+        },
+        {
+          "cat": "travel",
+          "tag": "baggage",
+          "text": "Lost / delayed baggage coverage"
+        },
+        {
+          "cat": "travel",
+          "tag": "rental-secondary",
+          "text": "Secondary rental car damage coverage"
+        },
+        {
+          "cat": "shopping",
+          "tag": "cell-phone",
+          "text": "Cell phone protection: up to $800 per claim, $50 deductible, 2 claims a year (pay your phone bill with the card)"
+        },
+        {
+          "cat": "shopping",
+          "tag": "purchase-protection",
+          "text": "Purchase protection against damage or theft"
+        },
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        }
+      ],
+      "benefitsVerified": null
     },
     {
       "business": false,
@@ -877,7 +1388,69 @@
       "brand": {
         "airline": "Delta",
         "flightsMult": 3
-      }
+      },
+      "benefits": [
+        {
+          "cat": "lounge",
+          "tag": "lounge",
+          "text": "Delta Sky Club access when flying Delta (annual visit limit)"
+        },
+        {
+          "cat": "lounge",
+          "tag": "lounge",
+          "text": "Centurion Lounge access when flying Delta"
+        },
+        {
+          "cat": "travel",
+          "tag": "free-bag",
+          "text": "First checked bag free on Delta (you + up to 8 companions)"
+        },
+        {
+          "cat": "status",
+          "text": "Medallion Qualification Dollars head start each year and MQDs from spend"
+        },
+        {
+          "cat": "travel",
+          "tag": "global-entry",
+          "text": "Global Entry or TSA PreCheck fee credit"
+        },
+        {
+          "cat": "travel",
+          "tag": "trip-delay",
+          "text": "Trip delay insurance: 6+ hour delay (or overnight), up to $500 per trip"
+        },
+        {
+          "cat": "travel",
+          "tag": "trip-cancel",
+          "text": "Trip cancellation / interruption insurance"
+        },
+        {
+          "cat": "travel",
+          "tag": "baggage",
+          "text": "Lost / delayed baggage coverage"
+        },
+        {
+          "cat": "travel",
+          "tag": "rental-secondary",
+          "text": "Secondary rental car damage coverage"
+        },
+        {
+          "cat": "shopping",
+          "tag": "cell-phone",
+          "text": "Cell phone protection: up to $800 per claim, $50 deductible, 2 claims a year (pay your phone bill with the card)"
+        },
+        {
+          "cat": "shopping",
+          "tag": "purchase-protection",
+          "text": "Purchase protection against damage or theft"
+        },
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        }
+      ],
+      "benefitsVerified": null
     },
     {
       "business": false,
@@ -981,7 +1554,73 @@
         "dining": 3,
         "travel": 1,
         "other": 1
-      }
+      },
+      "benefits": [
+        {
+          "cat": "lounge",
+          "tag": "lounge",
+          "text": "Priority Pass Select and Chase Sapphire Lounges"
+        },
+        {
+          "cat": "status",
+          "text": "IHG One Rewards Platinum Elite"
+        },
+        {
+          "cat": "other",
+          "text": "Apple TV+ and Apple Music subscriptions"
+        },
+        {
+          "cat": "travel",
+          "tag": "global-entry",
+          "text": "Global Entry or TSA PreCheck fee credit"
+        },
+        {
+          "cat": "travel",
+          "tag": "trip-delay",
+          "text": "Trip delay insurance: 6+ hour delay (or overnight), up to $500 per trip"
+        },
+        {
+          "cat": "travel",
+          "tag": "trip-cancel",
+          "text": "Trip cancellation / interruption: up to $10,000 per person per trip"
+        },
+        {
+          "cat": "travel",
+          "tag": "baggage",
+          "text": "Baggage delay ($100/day for 5 days) and lost luggage (up to $3,000)"
+        },
+        {
+          "cat": "travel",
+          "tag": "rental-primary",
+          "text": "Primary rental car coverage up to $75,000 (decline the agency CDW)"
+        },
+        {
+          "cat": "travel",
+          "tag": "evacuation",
+          "text": "Emergency evacuation and transportation up to $100,000"
+        },
+        {
+          "cat": "shopping",
+          "tag": "cell-phone",
+          "text": "Cell phone protection when you pay your bill with the card"
+        },
+        {
+          "cat": "shopping",
+          "tag": "purchase-protection",
+          "text": "Purchase protection against damage or theft"
+        },
+        {
+          "cat": "shopping",
+          "tag": "extended-warranty",
+          "text": "Extended warranty on eligible purchases"
+        },
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        }
+      ],
+      "benefitsVerified": null
     },
     {
       "business": false,
@@ -1026,7 +1665,45 @@
         "hotels": 2,
         "travel": 2,
         "other": 1
-      }
+      },
+      "benefits": [
+        {
+          "cat": "travel",
+          "tag": "trip-delay",
+          "text": "Trip delay insurance: 12+ hour delay (or overnight), up to $500 per trip"
+        },
+        {
+          "cat": "travel",
+          "tag": "trip-cancel",
+          "text": "Trip cancellation / interruption insurance"
+        },
+        {
+          "cat": "travel",
+          "tag": "baggage",
+          "text": "Lost / delayed baggage coverage"
+        },
+        {
+          "cat": "travel",
+          "tag": "rental-primary",
+          "text": "Primary rental car damage coverage (decline the agency CDW)"
+        },
+        {
+          "cat": "shopping",
+          "tag": "purchase-protection",
+          "text": "Purchase protection against damage or theft"
+        },
+        {
+          "cat": "shopping",
+          "tag": "extended-warranty",
+          "text": "Extended warranty on eligible purchases"
+        },
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        }
+      ],
+      "benefitsVerified": null
     },
     {
       "business": false,
@@ -1045,7 +1722,30 @@
         "drugstores": 3,
         "other": 1.5
       },
-      "notes": "Points become transferable when paired with Sapphire / Ink Preferred"
+      "notes": "Points become transferable when paired with Sapphire / Ink Preferred",
+      "benefits": [
+        {
+          "cat": "travel",
+          "tag": "rental-secondary",
+          "text": "Secondary rental car damage coverage"
+        },
+        {
+          "cat": "shopping",
+          "tag": "purchase-protection",
+          "text": "Purchase protection against damage or theft"
+        },
+        {
+          "cat": "shopping",
+          "tag": "extended-warranty",
+          "text": "Extended warranty on eligible purchases"
+        },
+        {
+          "cat": "travel",
+          "tag": "fx-fee",
+          "text": "Charges foreign transaction fees — leave it at home abroad"
+        }
+      ],
+      "benefitsVerified": null
     },
     {
       "business": false,
@@ -1064,7 +1764,35 @@
         "drugstores": 3,
         "other": 1
       },
-      "notes": "5% rotating quarterly categories not modeled"
+      "notes": "5% rotating quarterly categories not modeled",
+      "benefits": [
+        {
+          "cat": "shopping",
+          "tag": "cell-phone",
+          "text": "Cell phone protection: up to $800 per claim, $50 deductible"
+        },
+        {
+          "cat": "travel",
+          "tag": "rental-secondary",
+          "text": "Secondary rental car damage coverage"
+        },
+        {
+          "cat": "shopping",
+          "tag": "purchase-protection",
+          "text": "Purchase protection against damage or theft"
+        },
+        {
+          "cat": "shopping",
+          "tag": "extended-warranty",
+          "text": "Extended warranty on eligible purchases"
+        },
+        {
+          "cat": "travel",
+          "tag": "fx-fee",
+          "text": "Charges foreign transaction fees — leave it at home abroad"
+        }
+      ],
+      "benefitsVerified": null
     },
     {
       "business": true,
@@ -1092,7 +1820,45 @@
         "hotels": 150000,
         "travel": 150000
       },
-      "notes": "3x cap is $150,000 combined across travel, shipping, ads and internet/cable/phone per account anniversary year (modeled per category)"
+      "notes": "3x cap is $150,000 combined across travel, shipping, ads and internet/cable/phone per account anniversary year (modeled per category)",
+      "benefits": [
+        {
+          "cat": "shopping",
+          "tag": "cell-phone",
+          "text": "Cell phone protection: up to $1,000 per claim, $100 deductible (for you and employees)"
+        },
+        {
+          "cat": "travel",
+          "tag": "trip-delay",
+          "text": "Trip delay insurance: 12+ hour delay (or overnight), up to $500 per trip"
+        },
+        {
+          "cat": "travel",
+          "tag": "trip-cancel",
+          "text": "Trip cancellation / interruption insurance"
+        },
+        {
+          "cat": "travel",
+          "tag": "rental-primary",
+          "text": "Primary rental car coverage for business rentals"
+        },
+        {
+          "cat": "shopping",
+          "tag": "purchase-protection",
+          "text": "Purchase protection against damage or theft"
+        },
+        {
+          "cat": "shopping",
+          "tag": "extended-warranty",
+          "text": "Extended warranty on eligible purchases"
+        },
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        }
+      ],
+      "benefitsVerified": null
     },
     {
       "business": true,
@@ -1120,7 +1886,30 @@
       "program": "chase-ur",
       "earn": {
         "other": 1.5
-      }
+      },
+      "benefits": [
+        {
+          "cat": "travel",
+          "tag": "rental-primary",
+          "text": "Primary rental car coverage for business rentals"
+        },
+        {
+          "cat": "shopping",
+          "tag": "purchase-protection",
+          "text": "Purchase protection against damage or theft"
+        },
+        {
+          "cat": "shopping",
+          "tag": "extended-warranty",
+          "text": "Extended warranty on eligible purchases"
+        },
+        {
+          "cat": "travel",
+          "tag": "fx-fee",
+          "text": "Charges foreign transaction fees — leave it at home abroad"
+        }
+      ],
+      "benefitsVerified": null
     },
     {
       "business": false,
@@ -1140,7 +1929,30 @@
         "gas": 2,
         "other": 1
       },
-      "notes": "Requires Prime membership. 2% also on local transit/commuting incl. rideshare; 5% at Whole Foods and on Chase Travel"
+      "notes": "Requires Prime membership. 2% also on local transit/commuting incl. rideshare; 5% at Whole Foods and on Chase Travel",
+      "benefits": [
+        {
+          "cat": "travel",
+          "tag": "rental-secondary",
+          "text": "Secondary rental car damage coverage"
+        },
+        {
+          "cat": "shopping",
+          "tag": "purchase-protection",
+          "text": "Purchase protection against damage or theft"
+        },
+        {
+          "cat": "shopping",
+          "tag": "extended-warranty",
+          "text": "Extended warranty on eligible purchases"
+        },
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        }
+      ],
+      "benefitsVerified": null
     },
     {
       "business": false,
@@ -1194,7 +2006,60 @@
       "brand": {
         "airline": "United",
         "flightsMult": 2
-      }
+      },
+      "benefits": [
+        {
+          "cat": "travel",
+          "tag": "free-bag",
+          "text": "First checked bag free on United (you + 1 companion)"
+        },
+        {
+          "cat": "lounge",
+          "tag": "lounge",
+          "text": "2 United Club one-time passes a year"
+        },
+        {
+          "cat": "travel",
+          "tag": "global-entry",
+          "text": "Global Entry or TSA PreCheck fee credit"
+        },
+        {
+          "cat": "travel",
+          "tag": "trip-delay",
+          "text": "Trip delay insurance: 12+ hour delay (or overnight), up to $500 per trip"
+        },
+        {
+          "cat": "travel",
+          "tag": "trip-cancel",
+          "text": "Trip cancellation / interruption insurance"
+        },
+        {
+          "cat": "travel",
+          "tag": "baggage",
+          "text": "Lost / delayed baggage coverage"
+        },
+        {
+          "cat": "travel",
+          "tag": "rental-primary",
+          "text": "Primary rental car damage coverage (decline the agency CDW)"
+        },
+        {
+          "cat": "shopping",
+          "tag": "purchase-protection",
+          "text": "Purchase protection against damage or theft"
+        },
+        {
+          "cat": "shopping",
+          "tag": "extended-warranty",
+          "text": "Extended warranty on eligible purchases"
+        },
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        }
+      ],
+      "benefitsVerified": null
     },
     {
       "business": false,
@@ -1271,7 +2136,55 @@
       "brand": {
         "airline": "United",
         "flightsMult": 3
-      }
+      },
+      "benefits": [
+        {
+          "cat": "travel",
+          "tag": "free-bag",
+          "text": "First and second checked bags free on United (you + 1 companion)"
+        },
+        {
+          "cat": "travel",
+          "tag": "global-entry",
+          "text": "Global Entry or TSA PreCheck fee credit"
+        },
+        {
+          "cat": "travel",
+          "tag": "trip-delay",
+          "text": "Trip delay insurance: 12+ hour delay (or overnight), up to $500 per trip"
+        },
+        {
+          "cat": "travel",
+          "tag": "trip-cancel",
+          "text": "Trip cancellation / interruption insurance"
+        },
+        {
+          "cat": "travel",
+          "tag": "baggage",
+          "text": "Lost / delayed baggage coverage"
+        },
+        {
+          "cat": "travel",
+          "tag": "rental-primary",
+          "text": "Primary rental car damage coverage (decline the agency CDW)"
+        },
+        {
+          "cat": "shopping",
+          "tag": "purchase-protection",
+          "text": "Purchase protection against damage or theft"
+        },
+        {
+          "cat": "shopping",
+          "tag": "extended-warranty",
+          "text": "Extended warranty on eligible purchases"
+        },
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        }
+      ],
+      "benefitsVerified": null
     },
     {
       "business": false,
@@ -1339,7 +2252,64 @@
       "brand": {
         "airline": "United",
         "flightsMult": 4
-      }
+      },
+      "benefits": [
+        {
+          "cat": "lounge",
+          "tag": "lounge",
+          "text": "United Club membership"
+        },
+        {
+          "cat": "travel",
+          "tag": "free-bag",
+          "text": "First and second checked bags free on United"
+        },
+        {
+          "cat": "status",
+          "text": "Premier Access: priority check-in, security and boarding"
+        },
+        {
+          "cat": "travel",
+          "tag": "global-entry",
+          "text": "Global Entry or TSA PreCheck fee credit"
+        },
+        {
+          "cat": "travel",
+          "tag": "trip-delay",
+          "text": "Trip delay insurance: 12+ hour delay (or overnight), up to $500 per trip"
+        },
+        {
+          "cat": "travel",
+          "tag": "trip-cancel",
+          "text": "Trip cancellation / interruption insurance"
+        },
+        {
+          "cat": "travel",
+          "tag": "baggage",
+          "text": "Lost / delayed baggage coverage"
+        },
+        {
+          "cat": "travel",
+          "tag": "rental-primary",
+          "text": "Primary rental car damage coverage (decline the agency CDW)"
+        },
+        {
+          "cat": "shopping",
+          "tag": "purchase-protection",
+          "text": "Purchase protection against damage or theft"
+        },
+        {
+          "cat": "shopping",
+          "tag": "extended-warranty",
+          "text": "Extended warranty on eligible purchases"
+        },
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        }
+      ],
+      "benefitsVerified": null
     },
     {
       "business": false,
@@ -1377,7 +2347,44 @@
       "brand": {
         "airline": "Southwest",
         "flightsMult": 4
-      }
+      },
+      "benefits": [
+        {
+          "cat": "travel",
+          "tag": "free-bag",
+          "text": "First checked bag free on Southwest"
+        },
+        {
+          "cat": "other",
+          "text": "Upgraded boardings when available"
+        },
+        {
+          "cat": "travel",
+          "tag": "baggage",
+          "text": "Lost / delayed baggage coverage"
+        },
+        {
+          "cat": "travel",
+          "tag": "rental-secondary",
+          "text": "Secondary rental car damage coverage"
+        },
+        {
+          "cat": "shopping",
+          "tag": "purchase-protection",
+          "text": "Purchase protection against damage or theft"
+        },
+        {
+          "cat": "shopping",
+          "tag": "extended-warranty",
+          "text": "Extended warranty on eligible purchases"
+        },
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        }
+      ],
+      "benefitsVerified": null
     },
     {
       "business": false,
@@ -1430,7 +2437,43 @@
         "hotel": "Marriott",
         "hotelsMult": 6
       },
-      "notes": "3x cap is $6,000 combined across groceries, gas and dining (modeled per category)"
+      "notes": "3x cap is $6,000 combined across groceries, gas and dining (modeled per category)",
+      "benefits": [
+        {
+          "cat": "status",
+          "text": "Marriott Bonvoy Silver Elite"
+        },
+        {
+          "cat": "other",
+          "text": "15 Elite Night Credits a year"
+        },
+        {
+          "cat": "travel",
+          "tag": "trip-delay",
+          "text": "Trip delay insurance: 12+ hour delay (or overnight), up to $500 per trip"
+        },
+        {
+          "cat": "travel",
+          "tag": "baggage",
+          "text": "Lost / delayed baggage coverage"
+        },
+        {
+          "cat": "travel",
+          "tag": "rental-secondary",
+          "text": "Secondary rental car damage coverage"
+        },
+        {
+          "cat": "shopping",
+          "tag": "purchase-protection",
+          "text": "Purchase protection against damage or theft"
+        },
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        }
+      ],
+      "benefitsVerified": null
     },
     {
       "business": false,
@@ -1466,7 +2509,38 @@
         "hotel": "Hyatt",
         "hotelsMult": 4
       },
-      "notes": "2x also on local transit/commuting and fitness clubs (not modeled); other travel earns 1x"
+      "notes": "2x also on local transit/commuting and fitness clubs (not modeled); other travel earns 1x",
+      "benefits": [
+        {
+          "cat": "status",
+          "text": "World of Hyatt Discoverist"
+        },
+        {
+          "cat": "other",
+          "text": "5 tier-qualifying night credits a year, plus 2 for every $5,000 spent"
+        },
+        {
+          "cat": "travel",
+          "tag": "baggage",
+          "text": "Lost / delayed baggage coverage"
+        },
+        {
+          "cat": "travel",
+          "tag": "rental-secondary",
+          "text": "Secondary rental car damage coverage"
+        },
+        {
+          "cat": "shopping",
+          "tag": "purchase-protection",
+          "text": "Purchase protection against damage or theft"
+        },
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        }
+      ],
+      "benefitsVerified": null
     },
     {
       "business": false,
@@ -1549,7 +2623,48 @@
         "hotel": "IHG",
         "hotelsMult": 10
       },
-      "notes": "Refreshed Oct 2026: existing cardmembers keep $99 fee until their 2027 renewal and Platinum status through 2027. 5x on general travel ends 12/31/2026 (direct airfare and car rentals stay 5x)"
+      "notes": "Refreshed Oct 2026: existing cardmembers keep $99 fee until their 2027 renewal and Platinum status through 2027. 5x on general travel ends 12/31/2026 (direct airfare and car rentals stay 5x)",
+      "benefits": [
+        {
+          "cat": "status",
+          "text": "IHG One Rewards Platinum Elite"
+        },
+        {
+          "cat": "other",
+          "text": "4th reward night free"
+        },
+        {
+          "cat": "travel",
+          "tag": "global-entry",
+          "text": "Global Entry or TSA PreCheck fee credit"
+        },
+        {
+          "cat": "travel",
+          "tag": "trip-delay",
+          "text": "Trip delay insurance: 12+ hour delay (or overnight), up to $500 per trip"
+        },
+        {
+          "cat": "travel",
+          "tag": "baggage",
+          "text": "Lost / delayed baggage coverage"
+        },
+        {
+          "cat": "travel",
+          "tag": "rental-secondary",
+          "text": "Secondary rental car damage coverage"
+        },
+        {
+          "cat": "shopping",
+          "tag": "purchase-protection",
+          "text": "Purchase protection against damage or theft"
+        },
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        }
+      ],
+      "benefitsVerified": null
     },
     {
       "business": false,
@@ -1587,7 +2702,59 @@
       "program": "c1-miles",
       "earn": {
         "other": 2
-      }
+      },
+      "benefits": [
+        {
+          "cat": "lounge",
+          "tag": "lounge",
+          "text": "Capital One Lounges and Priority Pass (guests now paid)"
+        },
+        {
+          "cat": "status",
+          "text": "Hertz President's Circle"
+        },
+        {
+          "cat": "travel",
+          "tag": "global-entry",
+          "text": "Global Entry or TSA PreCheck fee credit"
+        },
+        {
+          "cat": "travel",
+          "tag": "trip-delay",
+          "text": "Trip delay insurance: 6+ hour delay (or overnight), up to $500 per trip"
+        },
+        {
+          "cat": "travel",
+          "tag": "trip-cancel",
+          "text": "Trip cancellation / interruption insurance"
+        },
+        {
+          "cat": "travel",
+          "tag": "baggage",
+          "text": "Lost / delayed baggage coverage"
+        },
+        {
+          "cat": "travel",
+          "tag": "rental-primary",
+          "text": "Primary rental car coverage (Visa Infinite version)"
+        },
+        {
+          "cat": "shopping",
+          "tag": "cell-phone",
+          "text": "Cell phone protection when you pay your bill with the card"
+        },
+        {
+          "cat": "shopping",
+          "tag": "extended-warranty",
+          "text": "Extended warranty on eligible purchases"
+        },
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        }
+      ],
+      "benefitsVerified": null
     },
     {
       "business": false,
@@ -1605,7 +2772,30 @@
       "program": "c1-miles",
       "earn": {
         "other": 2
-      }
+      },
+      "benefits": [
+        {
+          "cat": "travel",
+          "tag": "global-entry",
+          "text": "Global Entry or TSA PreCheck fee credit"
+        },
+        {
+          "cat": "travel",
+          "tag": "rental-secondary",
+          "text": "Secondary rental car damage coverage"
+        },
+        {
+          "cat": "shopping",
+          "tag": "extended-warranty",
+          "text": "Extended warranty on eligible purchases"
+        },
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        }
+      ],
+      "benefitsVerified": null
     },
     {
       "business": false,
@@ -1624,7 +2814,20 @@
         "groceries": 3,
         "streaming": 3,
         "other": 1
-      }
+      },
+      "benefits": [
+        {
+          "cat": "shopping",
+          "tag": "extended-warranty",
+          "text": "Extended warranty on eligible purchases"
+        },
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        }
+      ],
+      "benefitsVerified": null
     },
     {
       "business": false,
@@ -1640,7 +2843,20 @@
       "program": "cash",
       "earn": {
         "other": 1.5
-      }
+      },
+      "benefits": [
+        {
+          "cat": "shopping",
+          "tag": "extended-warranty",
+          "text": "Extended warranty on eligible purchases"
+        },
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        }
+      ],
+      "benefitsVerified": null
     },
     {
       "business": false,
@@ -1692,7 +2908,45 @@
       "earn": {
         "dining": 3,
         "other": 1.5
-      }
+      },
+      "benefits": [
+        {
+          "cat": "lounge",
+          "tag": "lounge",
+          "text": "Priority Pass Select"
+        },
+        {
+          "cat": "lounge",
+          "tag": "lounge",
+          "text": "4 American Airlines Admirals Club day passes a year"
+        },
+        {
+          "cat": "travel",
+          "tag": "global-entry",
+          "text": "Global Entry or TSA PreCheck fee credit"
+        },
+        {
+          "cat": "travel",
+          "tag": "trip-delay",
+          "text": "Trip delay insurance: 6+ hour delay (or overnight), up to $500 per trip"
+        },
+        {
+          "cat": "travel",
+          "tag": "trip-cancel",
+          "text": "Trip cancellation / interruption insurance"
+        },
+        {
+          "cat": "travel",
+          "tag": "baggage",
+          "text": "Lost / delayed baggage coverage"
+        },
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        }
+      ],
+      "benefitsVerified": null
     },
     {
       "business": false,
@@ -1723,7 +2977,30 @@
         "groceries": 3,
         "gas": 3,
         "other": 1
-      }
+      },
+      "benefits": [
+        {
+          "cat": "travel",
+          "tag": "trip-delay",
+          "text": "Trip delay insurance: 6+ hour delay (or overnight), up to $500 per trip"
+        },
+        {
+          "cat": "travel",
+          "tag": "trip-cancel",
+          "text": "Trip cancellation / interruption insurance"
+        },
+        {
+          "cat": "travel",
+          "tag": "baggage",
+          "text": "Lost / delayed baggage coverage"
+        },
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        }
+      ],
+      "benefitsVerified": null
     },
     {
       "business": false,
@@ -1739,7 +3016,15 @@
       "program": "cash",
       "earn": {
         "other": 2
-      }
+      },
+      "benefits": [
+        {
+          "cat": "travel",
+          "tag": "fx-fee",
+          "text": "Charges foreign transaction fees — leave it at home abroad"
+        }
+      ],
+      "benefitsVerified": null
     },
     {
       "business": false,
@@ -1769,7 +3054,15 @@
         "mult": 5,
         "cap": 6000
       },
-      "notes": "5% on your top eligible category each month (up to $500/mo). Closed to new applicants (issuer page shows 'Not Available')"
+      "notes": "5% on your top eligible category each month (up to $500/mo). Closed to new applicants (issuer page shows 'Not Available')",
+      "benefits": [
+        {
+          "cat": "travel",
+          "tag": "fx-fee",
+          "text": "Charges foreign transaction fees — leave it at home abroad"
+        }
+      ],
+      "benefitsVerified": null
     },
     {
       "business": false,
@@ -1820,7 +3113,39 @@
       "brand": {
         "airline": "American",
         "flightsMult": 4
-      }
+      },
+      "benefits": [
+        {
+          "cat": "lounge",
+          "tag": "lounge",
+          "text": "Admirals Club membership"
+        },
+        {
+          "cat": "travel",
+          "tag": "free-bag",
+          "text": "First checked bag free on American (you + up to 8 companions)"
+        },
+        {
+          "cat": "other",
+          "text": "Priority check-in, security and boarding on American"
+        },
+        {
+          "cat": "travel",
+          "tag": "global-entry",
+          "text": "Global Entry or TSA PreCheck fee credit"
+        },
+        {
+          "cat": "travel",
+          "tag": "trip-delay",
+          "text": "Trip delay insurance: 6+ hour delay (or overnight), up to $500 per trip"
+        },
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        }
+      ],
+      "benefitsVerified": null
     },
     {
       "business": false,
@@ -1847,7 +3172,24 @@
       "brand": {
         "airline": "American",
         "flightsMult": 2
-      }
+      },
+      "benefits": [
+        {
+          "cat": "travel",
+          "tag": "free-bag",
+          "text": "First checked bag free on domestic American flights (you + up to 4 companions)"
+        },
+        {
+          "cat": "other",
+          "text": "Preferred boarding on American"
+        },
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        }
+      ],
+      "benefitsVerified": null
     },
     {
       "business": false,
@@ -1887,7 +3229,35 @@
         "rent": 1.25,
         "other": 2
       },
-      "notes": "Rent earning depends on monthly card spend"
+      "notes": "Rent earning depends on monthly card spend",
+      "benefits": [
+        {
+          "cat": "lounge",
+          "tag": "lounge",
+          "text": "Priority Pass Select"
+        },
+        {
+          "cat": "shopping",
+          "tag": "cell-phone",
+          "text": "Cell phone protection when you pay your bill with the card"
+        },
+        {
+          "cat": "travel",
+          "tag": "rental-secondary",
+          "text": "Secondary rental car damage coverage"
+        },
+        {
+          "cat": "shopping",
+          "tag": "purchase-protection",
+          "text": "Purchase protection against damage or theft"
+        },
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        }
+      ],
+      "benefitsVerified": null
     },
     {
       "business": false,
@@ -1926,7 +3296,30 @@
         "picks": 1,
         "mult": 3,
         "cap": 25000
-      }
+      },
+      "benefits": [
+        {
+          "cat": "shopping",
+          "tag": "cell-phone",
+          "text": "Cell phone protection when you pay your bill with the card"
+        },
+        {
+          "cat": "travel",
+          "tag": "rental-secondary",
+          "text": "Secondary rental car damage coverage"
+        },
+        {
+          "cat": "shopping",
+          "tag": "purchase-protection",
+          "text": "Purchase protection against damage or theft"
+        },
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        }
+      ],
+      "benefitsVerified": null
     },
     {
       "business": false,
@@ -1943,7 +3336,30 @@
       "earn": {
         "rent": 1.25,
         "other": 1
-      }
+      },
+      "benefits": [
+        {
+          "cat": "shopping",
+          "tag": "cell-phone",
+          "text": "Cell phone protection when you pay your bill with the card"
+        },
+        {
+          "cat": "travel",
+          "tag": "rental-secondary",
+          "text": "Secondary rental car damage coverage"
+        },
+        {
+          "cat": "shopping",
+          "tag": "purchase-protection",
+          "text": "Purchase protection against damage or theft"
+        },
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        }
+      ],
+      "benefitsVerified": null
     },
     {
       "business": false,
@@ -1974,7 +3390,35 @@
         "dining": 2,
         "other": 1.5
       },
-      "notes": "Preferred Rewards boosts earning up to 75%"
+      "notes": "Preferred Rewards boosts earning up to 75%",
+      "benefits": [
+        {
+          "cat": "travel",
+          "tag": "global-entry",
+          "text": "Global Entry or TSA PreCheck credit"
+        },
+        {
+          "cat": "travel",
+          "tag": "trip-delay",
+          "text": "Trip delay insurance: 12+ hour delay (or overnight), up to $500 per trip"
+        },
+        {
+          "cat": "travel",
+          "tag": "baggage",
+          "text": "Lost / delayed baggage coverage"
+        },
+        {
+          "cat": "travel",
+          "tag": "rental-secondary",
+          "text": "Secondary rental car damage coverage"
+        },
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        }
+      ],
+      "benefitsVerified": null
     },
     {
       "business": false,
@@ -2015,7 +3459,45 @@
         "travel": 2,
         "dining": 2,
         "other": 1.5
-      }
+      },
+      "benefits": [
+        {
+          "cat": "lounge",
+          "tag": "lounge",
+          "text": "Priority Pass Select (you plus up to 3 authorized users)"
+        },
+        {
+          "cat": "travel",
+          "tag": "global-entry",
+          "text": "Global Entry or TSA PreCheck fee credit"
+        },
+        {
+          "cat": "travel",
+          "tag": "trip-delay",
+          "text": "Trip delay insurance: 6+ hour delay (or overnight), up to $500 per trip"
+        },
+        {
+          "cat": "travel",
+          "tag": "trip-cancel",
+          "text": "Trip cancellation / interruption insurance"
+        },
+        {
+          "cat": "travel",
+          "tag": "baggage",
+          "text": "Lost / delayed baggage coverage"
+        },
+        {
+          "cat": "travel",
+          "tag": "rental-secondary",
+          "text": "Secondary rental car damage coverage"
+        },
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        }
+      ],
+      "benefitsVerified": null
     },
     {
       "business": false,
@@ -2048,7 +3530,15 @@
         "mult": 3,
         "cap": 10000
       },
-      "notes": "2% grocery and 3% choice categories share one $2,500 quarterly cap ($10k/yr; modeled as separate caps). 'amazon' stands in for online shopping; home improvement choice not modeled; Preferred Rewards boosts not modeled"
+      "notes": "2% grocery and 3% choice categories share one $2,500 quarterly cap ($10k/yr; modeled as separate caps). 'amazon' stands in for online shopping; home improvement choice not modeled; Preferred Rewards boosts not modeled",
+      "benefits": [
+        {
+          "cat": "travel",
+          "tag": "fx-fee",
+          "text": "Charges foreign transaction fees — leave it at home abroad"
+        }
+      ],
+      "benefitsVerified": null
     },
     {
       "business": false,
@@ -2070,7 +3560,25 @@
         "gas": 3,
         "streaming": 3,
         "other": 1
-      }
+      },
+      "benefits": [
+        {
+          "cat": "shopping",
+          "tag": "cell-phone",
+          "text": "Cell phone protection: up to $600 per claim, $25 deductible"
+        },
+        {
+          "cat": "travel",
+          "tag": "rental-secondary",
+          "text": "Secondary rental car damage coverage"
+        },
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        }
+      ],
+      "benefitsVerified": null
     },
     {
       "business": false,
@@ -2100,7 +3608,35 @@
         "dining": 3,
         "travel": 3,
         "other": 1
-      }
+      },
+      "benefits": [
+        {
+          "cat": "shopping",
+          "tag": "cell-phone",
+          "text": "Cell phone protection: up to $1,000 per claim, $25 deductible"
+        },
+        {
+          "cat": "travel",
+          "tag": "trip-cancel",
+          "text": "Trip cancellation / interruption insurance"
+        },
+        {
+          "cat": "travel",
+          "tag": "baggage",
+          "text": "Lost / delayed baggage coverage"
+        },
+        {
+          "cat": "travel",
+          "tag": "rental-secondary",
+          "text": "Secondary rental car damage coverage"
+        },
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        }
+      ],
+      "benefitsVerified": null
     },
     {
       "business": false,
@@ -2116,7 +3652,25 @@
       "program": "cash",
       "earn": {
         "other": 2
-      }
+      },
+      "benefits": [
+        {
+          "cat": "shopping",
+          "tag": "cell-phone",
+          "text": "Cell phone protection: up to $600 per claim, $25 deductible"
+        },
+        {
+          "cat": "travel",
+          "tag": "rental-secondary",
+          "text": "Secondary rental car damage coverage"
+        },
+        {
+          "cat": "travel",
+          "tag": "fx-fee",
+          "text": "Charges foreign transaction fees — leave it at home abroad"
+        }
+      ],
+      "benefitsVerified": null
     },
     {
       "business": false,
@@ -2133,7 +3687,15 @@
       "earn": {
         "other": 1
       },
-      "notes": "5% rotating quarterly categories not modeled"
+      "notes": "5% rotating quarterly categories not modeled",
+      "benefits": [
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        }
+      ],
+      "benefitsVerified": null
     },
     {
       "business": false,
@@ -2150,7 +3712,15 @@
       "earn": {
         "other": 2
       },
-      "notes": "2% assumes Apple Pay; 3% at Apple and select merchants"
+      "notes": "2% assumes Apple Pay; 3% at Apple and select merchants",
+      "benefits": [
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        }
+      ],
+      "benefitsVerified": null
     },
     {
       "business": false,
@@ -2180,7 +3750,20 @@
       "caps": {
         "gas": 4000
       },
-      "notes": "4x gas/EV cap is $1,000 per quarter (modeled as $4,000/yr). Earns U.S. Bank points"
+      "notes": "4x gas/EV cap is $1,000 per quarter (modeled as $4,000/yr). Earns U.S. Bank points",
+      "benefits": [
+        {
+          "cat": "shopping",
+          "tag": "cell-phone",
+          "text": "Cell phone protection: up to $600 per claim"
+        },
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        }
+      ],
+      "benefitsVerified": null
     },
     {
       "business": false,
@@ -2209,7 +3792,20 @@
         "airline": "Alaska",
         "flightsMult": 3
       },
-      "notes": "3x also on foreign purchases and Hawaiian Airlines. Companion award not yet valued as a credit"
+      "notes": "3x also on foreign purchases and Hawaiian Airlines. Companion award not yet valued as a credit",
+      "benefits": [
+        {
+          "cat": "travel",
+          "tag": "free-bag",
+          "text": "Free checked bag on Alaska"
+        },
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        }
+      ],
+      "benefitsVerified": null
     },
     {
       "business": false,
@@ -2246,7 +3842,20 @@
         "airline": "JetBlue",
         "flightsMult": 6
       },
-      "notes": "Refreshed May 2026. Earn rates and anniversary points not yet confirmed on the issuer page"
+      "notes": "Refreshed May 2026. Earn rates and anniversary points not yet confirmed on the issuer page",
+      "benefits": [
+        {
+          "cat": "travel",
+          "tag": "free-bag",
+          "text": "Free first checked bag on JetBlue"
+        },
+        {
+          "cat": "travel",
+          "tag": "no-fx",
+          "text": "No foreign transaction fees"
+        }
+      ],
+      "benefitsVerified": null
     }
   ]
 }
