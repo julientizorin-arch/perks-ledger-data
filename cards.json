@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "2026.10.22-1",
-  "updatedAt": "2026-10-22",
+  "dataVersion": "2026.11.08-1",
+  "updatedAt": "2026-11-08",
   "programs": [
     {
       "id": "amex-mr",
@@ -622,9 +622,10 @@
       "open": true,
       "credits": [],
       "perks": [
-        "Hilton Silver status"
+        "Hilton Silver status",
+        "Hilton Gold status after $20,000 calendar-year spend"
       ],
-      "verified": null,
+      "verified": "2026-11-08",
       "id": "amex-hilton",
       "name": "Hilton Honors Card",
       "issuer": "American Express",
@@ -692,9 +693,10 @@
       "credits": [],
       "perks": [
         "Marriott Gold Elite status",
-        "Free night after $15,000 calendar-year spend"
+        "Free night after $15,000 calendar-year spend",
+        "15 Elite Night Credits annually"
       ],
-      "verified": null,
+      "verified": "2026-11-08",
       "id": "amex-marriott-bevy",
       "name": "Marriott Bonvoy Bevy",
       "issuer": "American Express",
@@ -713,7 +715,8 @@
       "brand": {
         "hotel": "Marriott",
         "hotelsMult": 6
-      }
+      },
+      "notes": "4x cap is $15,000 combined across dining and U.S. supermarkets per calendar year (modeled per category)"
     },
     {
       "business": false,
@@ -1030,7 +1033,7 @@
       "open": true,
       "credits": [],
       "perks": [],
-      "verified": null,
+      "verified": "2026-11-08",
       "id": "chase-freedom-unlimited",
       "name": "Freedom Unlimited",
       "issuer": "Chase",
@@ -1049,7 +1052,7 @@
       "open": true,
       "credits": [],
       "perks": [],
-      "verified": null,
+      "verified": "2026-11-08",
       "id": "chase-freedom-flex",
       "name": "Freedom Flex",
       "issuer": "Chase",
@@ -1071,7 +1074,7 @@
         "3x on shipping, advertising, internet/cable/phone (combined $150k cap)",
         "Cell phone protection"
       ],
-      "verified": null,
+      "verified": "2026-11-08",
       "id": "chase-ink-preferred",
       "name": "Ink Business Preferred",
       "issuer": "Chase",
@@ -1088,14 +1091,27 @@
         "flights": 150000,
         "hotels": 150000,
         "travel": 150000
-      }
+      },
+      "notes": "3x cap is $150,000 combined across travel, shipping, ads and internet/cable/phone per account anniversary year (modeled per category)"
     },
     {
       "business": true,
       "open": true,
-      "credits": [],
+      "credits": [
+        {
+          "id": "instacart",
+          "name": "Instacart credit",
+          "amount": 20,
+          "cadence": "monthly",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.4,
+          "enroll": true,
+          "notes": "Activate by 12/31/2027; applied in Instacart account"
+        }
+      ],
       "perks": [],
-      "verified": null,
+      "verified": "2026-11-08",
       "id": "chase-ink-unlimited",
       "name": "Ink Business Unlimited",
       "issuer": "Chase",
@@ -1111,7 +1127,7 @@
       "open": true,
       "credits": [],
       "perks": [],
-      "verified": null,
+      "verified": "2026-11-08",
       "id": "chase-prime-visa",
       "name": "Prime Visa",
       "issuer": "Chase",
@@ -1122,10 +1138,9 @@
         "amazon": 5,
         "dining": 2,
         "gas": 2,
-        "travel": 2,
         "other": 1
       },
-      "notes": "Requires Prime membership"
+      "notes": "Requires Prime membership. 2% also on local transit/commuting incl. rideshare; 5% at Whole Foods and on Chase Travel"
     },
     {
       "business": false,
@@ -1331,15 +1346,6 @@
       "open": true,
       "credits": [
         {
-          "id": "travel",
-          "name": "Southwest travel credit",
-          "amount": 75,
-          "cadence": "annual",
-          "basis": "cardmember",
-          "kind": "credit",
-          "ease": 0.8
-        },
-        {
           "id": "anniversary",
           "name": "Anniversary points",
           "amount": 7500,
@@ -1349,8 +1355,14 @@
           "ease": 1
         }
       ],
-      "perks": [],
-      "verified": null,
+      "perks": [
+        "First checked bag free (you + up to 8 on the reservation)",
+        "Group 5 boarding",
+        "Preferred seat at booking",
+        "Extra Legroom upgrade within 48h of departure",
+        "2,500 A-List tier qualifying points per $5,000 spend"
+      ],
+      "verified": "2026-11-08",
       "id": "chase-southwest-priority",
       "name": "Southwest Rapid Rewards Priority",
       "issuer": "Chase",
@@ -1358,7 +1370,6 @@
       "annualFee": 229,
       "program": "southwest",
       "earn": {
-        "travel": 2,
         "gas": 2,
         "dining": 2,
         "other": 1
@@ -1380,10 +1391,24 @@
           "basis": "cardmember",
           "kind": "certificate",
           "ease": 0.85
+        },
+        {
+          "id": "airline",
+          "name": "Airline credit",
+          "amount": 50,
+          "cadence": "semiannual",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.6,
+          "enroll": true,
+          "notes": "Two periods: 6/4/2026–12/31/2026 and 1/1/2027–6/30/2027 (modeled as calendar halves). $250 direct airline spend per period. New cardmembers auto-enrolled; existing cardmembers activate once"
         }
       ],
-      "perks": [],
-      "verified": null,
+      "perks": [
+        "Marriott Silver Elite status",
+        "15 Elite Night Credits annually"
+      ],
+      "verified": "2026-11-08",
       "id": "chase-marriott-boundless",
       "name": "Marriott Bonvoy Boundless",
       "issuer": "Chase",
@@ -1404,7 +1429,8 @@
       "brand": {
         "hotel": "Marriott",
         "hotelsMult": 6
-      }
+      },
+      "notes": "3x cap is $6,000 combined across groceries, gas and dining (modeled per category)"
     },
     {
       "business": false,
@@ -1424,7 +1450,7 @@
         "Hyatt Discoverist status",
         "Second free night after $15,000 spend"
       ],
-      "verified": null,
+      "verified": "2026-11-08",
       "id": "chase-hyatt",
       "name": "World of Hyatt Credit Card",
       "issuer": "Chase",
@@ -1434,13 +1460,13 @@
       "earn": {
         "dining": 2,
         "flights": 2,
-        "travel": 2,
         "other": 1
       },
       "brand": {
         "hotel": "Hyatt",
         "hotelsMult": 4
-      }
+      },
+      "notes": "2x also on local transit/commuting and fitness clubs (not modeled); other travel earns 1x"
     },
     {
       "business": false,
@@ -1448,36 +1474,82 @@
       "credits": [
         {
           "id": "free-night",
-          "name": "Annual free night (up to 40k points)",
+          "name": "Annual free night (up to 50k points)",
           "amount": 200,
           "cadence": "annual",
           "basis": "cardmember",
           "kind": "certificate",
           "ease": 0.8
+        },
+        {
+          "id": "airline",
+          "name": "Airline credit",
+          "amount": 100,
+          "cadence": "annual",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.6,
+          "notes": "After a single purchase of $250+ made directly with an airline; once per calendar year; through 12/31/2027"
+        },
+        {
+          "id": "ihg-dining",
+          "name": "IHG hotel food & beverage credit",
+          "amount": 25,
+          "cadence": "quarterly",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.4,
+          "notes": "Used during an IHG stay"
+        },
+        {
+          "id": "united-travelbank",
+          "name": "United TravelBank cash",
+          "amount": 25,
+          "cadence": "semiannual",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.5,
+          "enroll": true,
+          "notes": "January and July"
+        },
+        {
+          "id": "instacart",
+          "name": "Instacart credit",
+          "amount": 10,
+          "cadence": "monthly",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.4,
+          "enroll": true,
+          "notes": "Through 12/31/2027"
         }
       ],
       "perks": [
-        "IHG Platinum Elite status",
-        "4th reward night free"
+        "IHG Gold Elite status",
+        "IHG Platinum Elite after $15,000 spend",
+        "4th reward night free",
+        "Global Entry / TSA PreCheck credit (up to $120) every 4 years"
       ],
-      "verified": null,
+      "verified": "2026-11-08",
       "id": "chase-ihg-premier",
       "name": "IHG One Rewards Premier",
       "issuer": "Chase",
       "network": "Mastercard",
-      "annualFee": 99,
+      "annualFee": 150,
       "program": "ihg",
       "earn": {
         "travel": 5,
         "dining": 5,
         "gas": 5,
         "flights": 5,
+        "groceries": 5,
         "other": 3
       },
       "brand": {
         "hotel": "IHG",
         "hotelsMult": 10
-      }
+      },
+      "notes": "Refreshed Oct 2026: existing cardmembers keep $99 fee until their 2027 renewal and Platinum status through 2027. 5x on general travel ends 12/31/2026 (direct airfare and car rentals stay 5x)"
     },
     {
       "business": false,
@@ -1521,8 +1593,10 @@
       "business": false,
       "open": true,
       "credits": [],
-      "perks": [],
-      "verified": null,
+      "perks": [
+        "Global Entry / TSA PreCheck credit (up to $120) every 4 years"
+      ],
+      "verified": "2026-11-08",
       "id": "c1-venture",
       "name": "Venture Rewards",
       "issuer": "Capital One",
@@ -1538,7 +1612,7 @@
       "open": true,
       "credits": [],
       "perks": [],
-      "verified": null,
+      "verified": "2026-11-08",
       "id": "c1-savor",
       "name": "Savor Cash Rewards",
       "issuer": "Capital One",
@@ -1557,7 +1631,7 @@
       "open": true,
       "credits": [],
       "perks": [],
-      "verified": null,
+      "verified": "2026-11-08",
       "id": "c1-quicksilver",
       "name": "Quicksilver",
       "issuer": "Capital One",
@@ -1656,7 +1730,7 @@
       "open": true,
       "credits": [],
       "perks": [],
-      "verified": null,
+      "verified": "2026-11-08",
       "id": "citi-double-cash",
       "name": "Double Cash",
       "issuer": "Citi",
@@ -1669,10 +1743,10 @@
     },
     {
       "business": false,
-      "open": true,
+      "open": false,
       "credits": [],
       "perks": [],
-      "verified": null,
+      "verified": "2026-11-08",
       "id": "citi-custom-cash",
       "name": "Custom Cash",
       "issuer": "Citi",
@@ -1695,7 +1769,7 @@
         "mult": 5,
         "cap": 6000
       },
-      "notes": "5% on your top eligible category each month (up to $500/mo)"
+      "notes": "5% on your top eligible category each month (up to $500/mo). Closed to new applicants (issuer page shows 'Not Available')"
     },
     {
       "business": false,
@@ -1753,9 +1827,12 @@
       "open": true,
       "credits": [],
       "perks": [
-        "First checked bag free"
+        "First checked bag free",
+        "Preferred boarding",
+        "25% back on inflight food and drinks",
+        "$125 American Airlines flight discount after $20,000 cardmember-year spend and renewal"
       ],
-      "verified": null,
+      "verified": "2026-11-08",
       "id": "citi-aa-platinum",
       "name": "AAdvantage Platinum Select",
       "issuer": "Citi",
@@ -2100,8 +2177,15 @@
       "business": false,
       "open": true,
       "credits": [],
-      "perks": [],
-      "verified": null,
+      "perks": [
+        "Global Companion Award (25,000 points) each account anniversary, plus an additional 100k award after $60,000 spend",
+        "8 lounge passes per calendar year (2 per quarter)",
+        "Free checked bag and preferred boarding for you + up to 6 guests",
+        "10,000 status points each account anniversary",
+        "Global Entry / TSA PreCheck credit (up to $120) every 4 years",
+        "Same-day confirmed change fees waived on Alaska flights (up to $75 per change)"
+      ],
+      "verified": "2026-11-08",
       "id": "alaska-summit",
       "name": "Atmos Rewards Summit",
       "issuer": "Bank of America",
@@ -2116,13 +2200,27 @@
         "airline": "Alaska",
         "flightsMult": 3
       },
-      "notes": "Seeded with limited data; verify full terms"
+      "notes": "3x also on foreign purchases and Hawaiian Airlines. Companion award not yet valued as a credit"
     },
     {
       "business": false,
       "open": true,
-      "credits": [],
-      "perks": [],
+      "credits": [
+        {
+          "id": "trueblue-travel",
+          "name": "TrueBlue Travel credit",
+          "amount": 300,
+          "cadence": "annual",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.5
+        }
+      ],
+      "perks": [
+        "First checked bag free",
+        "Priority Pass Select",
+        "Companion pass up to $500 at $15,000 calendar-year spend; up to $1,500 at $75,000"
+      ],
       "verified": null,
       "id": "jetblue-premier",
       "name": "JetBlue Premier",
@@ -2139,7 +2237,7 @@
         "airline": "JetBlue",
         "flightsMult": 6
       },
-      "notes": "Seeded with limited data; verify full terms"
+      "notes": "Refreshed May 2026. Earn rates and anniversary points not yet confirmed on the issuer page"
     }
   ]
 }
