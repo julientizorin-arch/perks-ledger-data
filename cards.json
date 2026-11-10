@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "2026.11.08-1",
+  "dataVersion": "2026.11.08-2",
   "updatedAt": "2026-11-08",
   "programs": [
     {
@@ -2022,7 +2022,7 @@
       "open": true,
       "credits": [],
       "perks": [],
-      "verified": null,
+      "verified": "2026-11-08",
       "id": "boa-customized-cash",
       "name": "Customized Cash Rewards",
       "issuer": "Bank of America",
@@ -2047,7 +2047,8 @@
         "picks": 1,
         "mult": 3,
         "cap": 10000
-      }
+      },
+      "notes": "2% grocery and 3% choice categories share one $2,500 quarterly cap ($10k/yr; modeled as separate caps). 'amazon' stands in for online shopping; home improvement choice not modeled; Preferred Rewards boosts not modeled"
     },
     {
       "business": false,
@@ -2139,7 +2140,7 @@
       "open": true,
       "credits": [],
       "perks": [],
-      "verified": null,
+      "verified": "2026-11-08",
       "id": "apple-card",
       "name": "Apple Card",
       "issuer": "Goldman Sachs",
@@ -2155,8 +2156,11 @@
       "business": false,
       "open": true,
       "credits": [],
-      "perks": [],
-      "verified": null,
+      "perks": [
+        "12-month Priority Pass membership",
+        "Global Entry / TSA PreCheck application fee credit"
+      ],
+      "verified": "2026-11-08",
       "id": "usb-altitude-connect",
       "name": "Altitude Connect",
       "issuer": "U.S. Bank",
@@ -2166,12 +2170,17 @@
       "earn": {
         "hotels": 4,
         "travel": 4,
+        "flights": 4,
         "gas": 4,
         "dining": 2,
         "groceries": 2,
         "streaming": 2,
         "other": 1
-      }
+      },
+      "caps": {
+        "gas": 4000
+      },
+      "notes": "4x gas/EV cap is $1,000 per quarter (modeled as $4,000/yr). Earns U.S. Bank points"
     },
     {
       "business": false,
