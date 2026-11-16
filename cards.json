@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "2026.11.08-3",
-  "updatedAt": "2026-11-08",
+  "dataVersion": "2026.11.16-1",
+  "updatedAt": "2026-11-16",
   "programs": [
     {
       "id": "amex-mr",
@@ -364,7 +364,7 @@
         "$100 Hotel Collection credit on 2+ night stays",
         "5x prepaid hotels via Amex Travel"
       ],
-      "verified": "2026-10-22",
+      "verified": "2026-11-16",
       "id": "amex-gold",
       "name": "Gold Card",
       "issuer": "American Express",
@@ -417,7 +417,7 @@
           "text": "Hotel Collection: $100 property credit on 2+ night stays booked via Amex Travel"
         }
       ],
-      "benefitsVerified": null
+      "benefitsVerified": "2026-11-16"
     },
     {
       "business": false,
@@ -435,7 +435,7 @@
         }
       ],
       "perks": [],
-      "verified": "2026-10-22",
+      "verified": "2026-11-16",
       "id": "amex-bcp",
       "name": "Blue Cash Preferred",
       "issuer": "American Express",
@@ -474,7 +474,7 @@
           "text": "Charges foreign transaction fees — leave it at home abroad"
         }
       ],
-      "benefitsVerified": null
+      "benefitsVerified": "2026-11-16"
     },
     {
       "business": false,
@@ -906,7 +906,7 @@
         "Hilton Gold status",
         "Free night after $15,000 calendar-year spend"
       ],
-      "verified": "2026-10-22",
+      "verified": "2026-11-16",
       "id": "amex-hilton-surpass",
       "name": "Hilton Honors Surpass",
       "issuer": "American Express",
@@ -940,11 +940,25 @@
         },
         {
           "cat": "travel",
+          "tag": "baggage",
+          "text": "Baggage insurance: up to $1,250 carry-on / $500 checked"
+        },
+        {
+          "cat": "shopping",
+          "tag": "extended-warranty",
+          "text": "Extended warranty on eligible purchases"
+        },
+        {
+          "cat": "status",
+          "text": "National Car Rental Emerald Club Executive (enrollment required)"
+        },
+        {
+          "cat": "travel",
           "tag": "no-fx",
           "text": "No foreign transaction fees"
         }
       ],
-      "benefitsVerified": null
+      "benefitsVerified": "2026-11-16"
     },
     {
       "business": false,
@@ -1102,7 +1116,7 @@
         "Free night after $15,000 calendar-year spend",
         "15 Elite Night Credits annually"
       ],
-      "verified": "2026-11-08",
+      "verified": "2026-11-16",
       "id": "amex-marriott-bevy",
       "name": "Marriott Bonvoy Bevy",
       "issuer": "American Express",
@@ -1153,7 +1167,7 @@
           "text": "No foreign transaction fees"
         }
       ],
-      "benefitsVerified": null
+      "benefitsVerified": "2026-11-16"
     },
     {
       "business": false,
@@ -1167,13 +1181,24 @@
           "basis": "calendar",
           "kind": "credit",
           "ease": 0.4
+        },
+        {
+          "id": "rideshare",
+          "name": "Rideshare credit (Uber, Lyft, Curb, Alto)",
+          "amount": 10,
+          "cadence": "monthly",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.5,
+          "enroll": true,
+          "notes": "U.S. rides; starts after first card renewal (not in year 1)"
         }
       ],
       "perks": [
         "First checked bag free",
         "Priority boarding"
       ],
-      "verified": "2026-10-22",
+      "verified": "2026-11-16",
       "id": "amex-delta-gold",
       "name": "Delta SkyMiles Gold",
       "issuer": "American Express",
@@ -1193,11 +1218,19 @@
         {
           "cat": "travel",
           "tag": "free-bag",
-          "text": "First checked bag free on Delta (you + up to 8 companions)"
+          "text": "First checked bag free on Delta (you + up to 8 companions); second checked bag free on U.S. domestic Delta flights (cardmember only)"
         },
         {
           "cat": "other",
           "text": "Priority boarding (Zone 5) and 20% back on inflight purchases"
+        },
+        {
+          "cat": "other",
+          "text": "$200 Delta Flight Credit after $10,000 eligible spend in a calendar year"
+        },
+        {
+          "cat": "travel",
+          "text": "TakeOff 15: 15% off Delta award flights booked on delta.com / Fly Delta app"
         },
         {
           "cat": "travel",
@@ -1215,7 +1248,7 @@
           "text": "No foreign transaction fees"
         }
       ],
-      "benefitsVerified": null
+      "benefitsVerified": "2026-11-16"
     },
     {
       "business": false,
@@ -1642,7 +1675,9 @@
           "cadence": "monthly",
           "basis": "calendar",
           "kind": "credit",
-          "ease": 0.5
+          "ease": 0.5,
+          "enroll": true,
+          "notes": "$10 off one non-restaurant order per month; requires DashPass activation (by 12/31/2029)"
         }
       ],
       "perks": [
@@ -1650,7 +1685,7 @@
         "Primary rental car coverage",
         "5x on Chase Travel"
       ],
-      "verified": "2026-10-22",
+      "verified": "2026-11-16",
       "id": "chase-sapphire-preferred",
       "name": "Sapphire Preferred",
       "issuer": "Chase",
@@ -1664,7 +1699,8 @@
         "flights": 2,
         "hotels": 2,
         "travel": 2,
-        "other": 1
+        "other": 1,
+        "gas": 3
       },
       "benefits": [
         {
@@ -1675,12 +1711,12 @@
         {
           "cat": "travel",
           "tag": "trip-cancel",
-          "text": "Trip cancellation / interruption insurance"
+          "text": "Trip cancellation / interruption insurance: up to $10,000 per person, $20,000 per trip"
         },
         {
           "cat": "travel",
           "tag": "baggage",
-          "text": "Lost / delayed baggage coverage"
+          "text": "Lost luggage up to $3,000; baggage delay $100/day"
         },
         {
           "cat": "travel",
@@ -1699,11 +1735,22 @@
         },
         {
           "cat": "travel",
+          "tag": "global-entry",
+          "text": "Global Entry, TSA PreCheck or NEXUS fee credit (up to $120 every 4 years)"
+        },
+        {
+          "cat": "travel",
+          "tag": "evacuation",
+          "text": "Emergency evacuation & transportation: up to $100,000 (trip 100+ miles from home)"
+        },
+        {
+          "cat": "travel",
           "tag": "no-fx",
           "text": "No foreign transaction fees"
         }
       ],
-      "benefitsVerified": null
+      "benefitsVerified": "2026-11-16",
+      "notes": "3x groceries is online grocery only (excl. Target, Walmart, wholesale clubs)"
     },
     {
       "business": false,
@@ -1797,12 +1844,24 @@
     {
       "business": true,
       "open": true,
-      "credits": [],
+      "credits": [
+        {
+          "id": "doordash",
+          "name": "DoorDash promo",
+          "amount": 10,
+          "cadence": "monthly",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.5,
+          "enroll": true,
+          "notes": "$10 off one non-restaurant order per month; requires DashPass activation by 12/31/2027"
+        }
+      ],
       "perks": [
         "3x on shipping, advertising, internet/cable/phone (combined $150k cap)",
         "Cell phone protection"
       ],
-      "verified": "2026-11-08",
+      "verified": "2026-11-16",
       "id": "chase-ink-preferred",
       "name": "Ink Business Preferred",
       "issuer": "Chase",
@@ -1835,7 +1894,7 @@
         {
           "cat": "travel",
           "tag": "trip-cancel",
-          "text": "Trip cancellation / interruption insurance"
+          "text": "Trip cancellation / interruption insurance: up to $5,000 per person, $10,000 per trip"
         },
         {
           "cat": "travel",
@@ -1965,7 +2024,8 @@
           "cadence": "monthly",
           "basis": "calendar",
           "kind": "credit",
-          "ease": 0.6
+          "ease": 0.6,
+          "enroll": true
         },
         {
           "id": "instacart",
@@ -1974,24 +2034,35 @@
           "cadence": "monthly",
           "basis": "calendar",
           "kind": "credit",
-          "ease": 0.4
+          "ease": 0.4,
+          "enroll": true,
+          "notes": "Requires active Instacart+; one $10+ order per month; through 12/31/2027"
         },
         {
           "id": "hotel",
           "name": "United Hotels credit",
-          "amount": 50,
-          "cadence": "semiannual",
+          "amount": 100,
+          "cadence": "annual",
           "basis": "cardmember",
           "kind": "credit",
           "ease": 0.3,
-          "notes": "Two $50 prepaid stays per year"
+          "notes": "Two $50 credits on the first two prepaid United Hotels stays each anniversary year"
+        },
+        {
+          "id": "jsx",
+          "name": "JSX credit",
+          "amount": 100,
+          "cadence": "annual",
+          "basis": "cardmember",
+          "kind": "credit",
+          "ease": 0.1
         }
       ],
       "perks": [
         "First checked bag free",
         "2 United Club passes per year"
       ],
-      "verified": "2026-10-22",
+      "verified": "2026-11-16",
       "id": "chase-united-explorer",
       "name": "United Explorer",
       "issuer": "Chase",
@@ -2005,7 +2076,7 @@
       },
       "brand": {
         "airline": "United",
-        "flightsMult": 2
+        "flightsMult": 3
       },
       "benefits": [
         {
@@ -2031,12 +2102,12 @@
         {
           "cat": "travel",
           "tag": "trip-cancel",
-          "text": "Trip cancellation / interruption insurance"
+          "text": "Trip cancellation / interruption insurance: up to $1,500 per person, $6,000 per trip"
         },
         {
           "cat": "travel",
           "tag": "baggage",
-          "text": "Lost / delayed baggage coverage"
+          "text": "Lost luggage up to $3,000; baggage delay $100/day for 3 days"
         },
         {
           "cat": "travel",
@@ -2059,7 +2130,7 @@
           "text": "No foreign transaction fees"
         }
       ],
-      "benefitsVerified": null
+      "benefitsVerified": "2026-11-16"
     },
     {
       "business": false,
@@ -2332,7 +2403,7 @@
         "Extra Legroom upgrade within 48h of departure",
         "2,500 A-List tier qualifying points per $5,000 spend"
       ],
-      "verified": "2026-11-08",
+      "verified": "2026-11-16",
       "id": "chase-southwest-priority",
       "name": "Southwest Rapid Rewards Priority",
       "issuer": "Chase",
@@ -2356,7 +2427,7 @@
         },
         {
           "cat": "other",
-          "text": "Upgraded boardings when available"
+          "text": "Group 5 boarding (you + up to 8 on the reservation)"
         },
         {
           "cat": "travel",
@@ -2493,7 +2564,7 @@
         "Hyatt Discoverist status",
         "Second free night after $15,000 spend"
       ],
-      "verified": "2026-11-08",
+      "verified": "2026-11-16",
       "id": "chase-hyatt",
       "name": "World of Hyatt Credit Card",
       "issuer": "Chase",
@@ -2521,6 +2592,11 @@
         },
         {
           "cat": "travel",
+          "tag": "trip-cancel",
+          "text": "Trip cancellation / interruption insurance: up to $5,000 per person, $10,000 per trip"
+        },
+        {
+          "cat": "travel",
           "tag": "baggage",
           "text": "Lost / delayed baggage coverage"
         },
@@ -2540,7 +2616,7 @@
           "text": "No foreign transaction fees"
         }
       ],
-      "benefitsVerified": null
+      "benefitsVerified": "2026-11-16"
     },
     {
       "business": false,
@@ -2595,7 +2671,18 @@
           "kind": "credit",
           "ease": 0.4,
           "enroll": true,
-          "notes": "Through 12/31/2027"
+          "notes": "Requires active Instacart+ (3 months complimentary); through 12/31/2027"
+        },
+        {
+          "id": "doordash",
+          "name": "DoorDash non-restaurant credit",
+          "amount": 10,
+          "cadence": "monthly",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.4,
+          "enroll": true,
+          "notes": "Up to $10 off non-restaurant orders monthly with DashPass (12 months complimentary, activate by 12/31/2027); through 12/31/2027"
         }
       ],
       "perks": [
@@ -2604,7 +2691,7 @@
         "4th reward night free",
         "Global Entry / TSA PreCheck credit (up to $120) every 4 years"
       ],
-      "verified": "2026-11-08",
+      "verified": "2026-11-16",
       "id": "chase-ihg-premier",
       "name": "IHG One Rewards Premier",
       "issuer": "Chase",
@@ -2627,16 +2714,25 @@
       "benefits": [
         {
           "cat": "status",
-          "text": "IHG One Rewards Platinum Elite"
+          "text": "IHG One Rewards Gold Elite (Platinum after $15,000, Diamond after $40,000 calendar-year spend)"
         },
         {
           "cat": "other",
           "text": "4th reward night free"
         },
         {
+          "cat": "other",
+          "text": "15 Elite Night Credits a year (plus 2 per $5,000 spend)"
+        },
+        {
           "cat": "travel",
           "tag": "global-entry",
           "text": "Global Entry or TSA PreCheck fee credit"
+        },
+        {
+          "cat": "travel",
+          "tag": "trip-cancel",
+          "text": "Trip cancellation / interruption insurance: up to $5,000 per traveler, $10,000 per trip"
         },
         {
           "cat": "travel",
@@ -2646,7 +2742,7 @@
         {
           "cat": "travel",
           "tag": "baggage",
-          "text": "Lost / delayed baggage coverage"
+          "text": "Lost luggage up to $3,000 per traveler; baggage delay (6+ hours) up to $100/day for 3 days"
         },
         {
           "cat": "travel",
@@ -2656,7 +2752,7 @@
         {
           "cat": "shopping",
           "tag": "purchase-protection",
-          "text": "Purchase protection against damage or theft"
+          "text": "Purchase protection: 120 days, up to $500 per item"
         },
         {
           "cat": "travel",
@@ -2763,7 +2859,7 @@
       "perks": [
         "Global Entry / TSA PreCheck credit (up to $120) every 4 years"
       ],
-      "verified": "2026-11-08",
+      "verified": "2026-11-16",
       "id": "c1-venture",
       "name": "Venture Rewards",
       "issuer": "Capital One",
@@ -2963,7 +3059,7 @@
         }
       ],
       "perks": [],
-      "verified": "2026-10-22",
+      "verified": "2026-11-16",
       "id": "citi-strata-premier",
       "name": "Strata Premier",
       "issuer": "Citi",
@@ -2992,7 +3088,7 @@
         {
           "cat": "travel",
           "tag": "baggage",
-          "text": "Lost / delayed baggage coverage"
+          "text": "Lost or damaged luggage coverage"
         },
         {
           "cat": "travel",
@@ -3093,19 +3189,39 @@
           "cadence": "monthly",
           "basis": "calendar",
           "kind": "credit",
-          "ease": 0.4
+          "ease": 0.4,
+          "notes": "Legacy: only accounts opened before 2026-08-23; ends 2027-08-31"
+        },
+        {
+          "id": "aa-vacations",
+          "name": "American Airlines Vacations credit",
+          "amount": 250,
+          "cadence": "semiannual",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.2,
+          "notes": "Jan–Jun and Jul–Dec; eligible packages via aavacations.com"
+        },
+        {
+          "id": "inflight",
+          "name": "Inflight & Admirals Club purchases",
+          "amount": 100,
+          "cadence": "annual",
+          "basis": "calendar",
+          "kind": "credit",
+          "ease": 0.6
         }
       ],
       "perks": [
         "Admirals Club membership",
         "First checked bag free"
       ],
-      "verified": "2026-10-22",
+      "verified": "2026-11-16",
       "id": "citi-aa-executive",
-      "name": "AAdvantage Executive World Elite",
+      "name": "AAdvantage Executive World Legend",
       "issuer": "Citi",
       "network": "Mastercard",
-      "annualFee": 595,
+      "annualFee": 695,
       "program": "aa",
       "earn": {
         "other": 1
@@ -3130,6 +3246,14 @@
           "text": "Priority check-in, security and boarding on American"
         },
         {
+          "cat": "status",
+          "text": "Omni Hotels Champion status (enrollment required) + one free night a calendar year after a qualifying 2+ night direct stay"
+        },
+        {
+          "cat": "status",
+          "text": "Avis President's Club status (enroll by Aug 31, 2028)"
+        },
+        {
           "cat": "travel",
           "tag": "global-entry",
           "text": "Global Entry or TSA PreCheck fee credit"
@@ -3145,7 +3269,8 @@
           "text": "No foreign transaction fees"
         }
       ],
-      "benefitsVerified": null
+      "benefitsVerified": null,
+      "notes": "Refreshed 2026-08-23: fee $595 → $695 for new accounts; existing cardmembers pay $695 at the first renewal after notice"
     },
     {
       "business": false,
@@ -3157,7 +3282,7 @@
         "25% back on inflight food and drinks",
         "$125 American Airlines flight discount after $20,000 cardmember-year spend and renewal"
       ],
-      "verified": "2026-11-08",
+      "verified": "2026-11-16",
       "id": "citi-aa-platinum",
       "name": "AAdvantage Platinum Select",
       "issuer": "Citi",
@@ -3189,7 +3314,7 @@
           "text": "No foreign transaction fees"
         }
       ],
-      "benefitsVerified": null
+      "benefitsVerified": "2026-11-16"
     },
     {
       "business": false,
@@ -3270,11 +3395,12 @@
           "cadence": "semiannual",
           "basis": "calendar",
           "kind": "credit",
-          "ease": 0.5
+          "ease": 0.5,
+          "notes": "Bilt Travel hotel booking, minimum 2-night stay; $50 per half calendar year, no rollover"
         }
       ],
       "perks": [],
-      "verified": "2026-10-22",
+      "verified": "2026-11-16",
       "id": "bilt-obsidian",
       "name": "Bilt Obsidian",
       "issuer": "Bilt",
@@ -3376,7 +3502,7 @@
         }
       ],
       "perks": [],
-      "verified": "2026-10-22",
+      "verified": "2026-11-16",
       "id": "boa-premium-rewards",
       "name": "Premium Rewards",
       "issuer": "Bank of America",
@@ -3446,7 +3572,7 @@
       "perks": [
         "Priority Pass"
       ],
-      "verified": "2026-10-22",
+      "verified": "2026-11-16",
       "id": "boa-premium-rewards-elite",
       "name": "Premium Rewards Elite",
       "issuer": "Bank of America",
@@ -3777,7 +3903,7 @@
         "Global Entry / TSA PreCheck credit (up to $120) every 4 years",
         "Same-day confirmed change fees waived on Alaska flights (up to $75 per change)"
       ],
-      "verified": "2026-11-08",
+      "verified": "2026-11-16",
       "id": "alaska-summit",
       "name": "Atmos Rewards Summit",
       "issuer": "Bank of America",
@@ -3801,11 +3927,20 @@
         },
         {
           "cat": "travel",
+          "tag": "global-entry",
+          "text": "Global Entry or TSA PreCheck fee credit (up to $120 every 4 years)"
+        },
+        {
+          "cat": "travel",
+          "text": "$50 instant travel delay credit for cancellations or delays of 2+ hours"
+        },
+        {
+          "cat": "travel",
           "tag": "no-fx",
           "text": "No foreign transaction fees"
         }
       ],
-      "benefitsVerified": null
+      "benefitsVerified": "2026-11-16"
     },
     {
       "business": false,
@@ -3819,6 +3954,15 @@
           "basis": "calendar",
           "kind": "credit",
           "ease": 0.5
+        },
+        {
+          "id": "anniversary",
+          "name": "Anniversary points",
+          "amount": 5000,
+          "cadence": "annual",
+          "basis": "cardmember",
+          "kind": "points",
+          "ease": 1
         }
       ],
       "perks": [
@@ -3826,7 +3970,7 @@
         "Priority Pass Select",
         "Companion pass up to $500 at $15,000 calendar-year spend; up to $1,500 at $75,000"
       ],
-      "verified": null,
+      "verified": "2026-11-16",
       "id": "jetblue-premier",
       "name": "JetBlue Premier",
       "issuer": "Barclays",
@@ -3842,7 +3986,7 @@
         "airline": "JetBlue",
         "flightsMult": 6
       },
-      "notes": "Refreshed May 2026. Earn rates and anniversary points not yet confirmed on the issuer page",
+      "notes": "Refreshed May 2026",
       "benefits": [
         {
           "cat": "travel",
@@ -3850,12 +3994,22 @@
           "text": "Free first checked bag on JetBlue"
         },
         {
+          "cat": "lounge",
+          "tag": "lounge",
+          "text": "Priority Pass Select membership"
+        },
+        {
+          "cat": "travel",
+          "tag": "global-entry",
+          "text": "Global Entry or TSA PreCheck fee credit (up to $120 every 4 years)"
+        },
+        {
           "cat": "travel",
           "tag": "no-fx",
           "text": "No foreign transaction fees"
         }
       ],
-      "benefitsVerified": null
+      "benefitsVerified": "2026-11-16"
     }
   ]
 }
