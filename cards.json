@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "2026.11.08-3",
-  "updatedAt": "2026-11-08",
+  "dataVersion": "2026.11.23-1",
+  "updatedAt": "2026-11-23",
   "programs": [
     {
       "id": "amex-mr",
@@ -234,7 +234,7 @@
         "5x on prepaid hotels via Amex Travel",
         "Global Entry / TSA PreCheck credit every 4 years"
       ],
-      "verified": "2026-10-22",
+      "verified": "2026-11-23",
       "id": "amex-platinum",
       "name": "The Platinum Card",
       "issuer": "American Express",
@@ -244,6 +244,9 @@
       "earn": {
         "flights": 5,
         "other": 1
+      },
+      "caps": {
+        "flights": 500000
       },
       "benefits": [
         {
@@ -714,7 +717,7 @@
         }
       ],
       "perks": [],
-      "verified": "2026-10-22",
+      "verified": "2026-11-23",
       "id": "amex-biz-gold",
       "name": "Business Gold Card",
       "issuer": "American Express",
@@ -728,8 +731,7 @@
         "categories": [
           "dining",
           "gas",
-          "travel",
-          "flights"
+          "travel"
         ],
         "picks": 2,
         "mult": 4,
@@ -815,7 +817,7 @@
         "Hilton Diamond status",
         "$100 on-property credit at Waldorf Astoria / Conrad (2+ nights)"
       ],
-      "verified": "2026-10-22",
+      "verified": "2026-11-23",
       "id": "amex-hilton-aspire",
       "name": "Hilton Honors Aspire",
       "issuer": "American Express",
@@ -836,11 +838,6 @@
         {
           "cat": "status",
           "text": "Hilton Honors Diamond"
-        },
-        {
-          "cat": "lounge",
-          "tag": "lounge",
-          "text": "Priority Pass Select"
         },
         {
           "cat": "status",
@@ -1016,7 +1013,7 @@
         "Marriott Platinum Elite status",
         "$100 property credit at Ritz-Carlton / St. Regis (2+ nights)"
       ],
-      "verified": "2026-10-22",
+      "verified": "2026-11-23",
       "id": "amex-marriott-brilliant",
       "name": "Marriott Bonvoy Brilliant",
       "issuer": "American Express",
@@ -1263,7 +1260,7 @@
       "perks": [
         "First checked bag free"
       ],
-      "verified": "2026-10-22",
+      "verified": "2026-11-23",
       "id": "amex-delta-platinum",
       "name": "Delta SkyMiles Platinum",
       "issuer": "American Express",
@@ -1326,7 +1323,7 @@
           "text": "No foreign transaction fees"
         }
       ],
-      "benefitsVerified": null
+      "benefitsVerified": "2026-11-23"
     },
     {
       "business": false,
@@ -1375,7 +1372,7 @@
         "Delta Sky Club access (visit limits apply)",
         "First checked bag free"
       ],
-      "verified": "2026-10-22",
+      "verified": "2026-11-23",
       "id": "amex-delta-reserve",
       "name": "Delta SkyMiles Reserve",
       "issuer": "American Express",
@@ -1450,7 +1447,7 @@
           "text": "No foreign transaction fees"
         }
       ],
-      "benefitsVerified": null
+      "benefitsVerified": "2026-11-23"
     },
     {
       "business": false,
@@ -1497,12 +1494,12 @@
         {
           "id": "doordash",
           "name": "DoorDash",
-          "amount": 25,
+          "amount": 35,
           "cadence": "monthly",
           "basis": "calendar",
           "kind": "credit",
           "ease": 0.6,
-          "notes": "Some 2026 sources cite $35/mo; verify"
+          "notes": "$15 restaurant + two $10 non-restaurant promos each month"
         },
         {
           "id": "lyft",
@@ -1526,7 +1523,7 @@
         {
           "id": "apple",
           "name": "Apple TV+ and Apple Music",
-          "amount": 288,
+          "amount": 324,
           "cadence": "annual",
           "basis": "calendar",
           "kind": "credit",
@@ -2135,7 +2132,7 @@
       },
       "brand": {
         "airline": "United",
-        "flightsMult": 3
+        "flightsMult": 4
       },
       "benefits": [
         {
@@ -2211,7 +2208,8 @@
             12,
             12,
             18
-          ]
+          ],
+          "enroll": true
         },
         {
           "id": "instacart",
@@ -2236,7 +2234,7 @@
         "United Club membership",
         "Premier Access, two free checked bags"
       ],
-      "verified": "2026-10-22",
+      "verified": "2026-11-23",
       "id": "chase-united-club",
       "name": "United Club Card",
       "issuer": "Chase",
@@ -2251,7 +2249,7 @@
       },
       "brand": {
         "airline": "United",
-        "flightsMult": 4
+        "flightsMult": 5
       },
       "benefits": [
         {
@@ -2309,7 +2307,7 @@
           "text": "No foreign transaction fees"
         }
       ],
-      "benefitsVerified": null
+      "benefitsVerified": "2026-11-23"
     },
     {
       "business": false,
@@ -2693,7 +2691,7 @@
         "Capital One Lounges and Priority Pass (guests paid since Feb 2026)",
         "10x hotels / cars and 5x flights via Capital One Travel"
       ],
-      "verified": "2026-10-22",
+      "verified": "2026-11-23",
       "id": "c1-venture-x",
       "name": "Venture X",
       "issuer": "Capital One",
@@ -2898,7 +2896,7 @@
         "12x hotels / cars via Citi Travel",
         "6x dining Fri–Sat nights"
       ],
-      "verified": "2026-10-22",
+      "verified": "2026-11-23",
       "id": "citi-strata-elite",
       "name": "Strata Elite",
       "issuer": "Citi",
@@ -3102,10 +3100,10 @@
       ],
       "verified": "2026-10-22",
       "id": "citi-aa-executive",
-      "name": "AAdvantage Executive World Elite",
+      "name": "AAdvantage Executive World Legend",
       "issuer": "Citi",
       "network": "Mastercard",
-      "annualFee": 595,
+      "annualFee": 695,
       "program": "aa",
       "earn": {
         "other": 1
@@ -3209,7 +3207,7 @@
           "name": "Annual Bilt Cash",
           "amount": 200,
           "cadence": "annual",
-          "basis": "cardmember",
+          "basis": "calendar",
           "kind": "credit",
           "ease": 0.8
         }
@@ -3218,7 +3216,7 @@
         "Priority Pass",
         "4% back in Bilt Cash on purchases"
       ],
-      "verified": "2026-10-22",
+      "verified": "2026-11-23",
       "id": "bilt-palladium",
       "name": "Bilt Palladium",
       "issuer": "Bilt",
@@ -3545,7 +3543,7 @@
       "open": true,
       "credits": [],
       "perks": [],
-      "verified": null,
+      "verified": "2026-11-23",
       "id": "wf-autograph",
       "name": "Autograph",
       "issuer": "Wells Fargo",
@@ -3578,7 +3576,7 @@
           "text": "No foreign transaction fees"
         }
       ],
-      "benefitsVerified": null
+      "benefitsVerified": "2026-11-23"
     },
     {
       "business": false,
@@ -3595,7 +3593,7 @@
         }
       ],
       "perks": [],
-      "verified": null,
+      "verified": "2026-11-23",
       "id": "wf-autograph-journey",
       "name": "Autograph Journey",
       "issuer": "Wells Fargo",
@@ -3643,7 +3641,7 @@
       "open": true,
       "credits": [],
       "perks": [],
-      "verified": null,
+      "verified": "2026-11-23",
       "id": "wf-active-cash",
       "name": "Active Cash",
       "issuer": "Wells Fargo",
@@ -3670,14 +3668,14 @@
           "text": "Charges foreign transaction fees — leave it at home abroad"
         }
       ],
-      "benefitsVerified": null
+      "benefitsVerified": "2026-11-23"
     },
     {
       "business": false,
       "open": true,
       "credits": [],
       "perks": [],
-      "verified": null,
+      "verified": "2026-11-23",
       "id": "discover-it",
       "name": "Discover it Cash Back",
       "issuer": "Discover",
@@ -3695,7 +3693,7 @@
           "text": "No foreign transaction fees"
         }
       ],
-      "benefitsVerified": null
+      "benefitsVerified": "2026-11-23"
     },
     {
       "business": false,
@@ -3826,7 +3824,7 @@
         "Priority Pass Select",
         "Companion pass up to $500 at $15,000 calendar-year spend; up to $1,500 at $75,000"
       ],
-      "verified": null,
+      "verified": "2026-11-23",
       "id": "jetblue-premier",
       "name": "JetBlue Premier",
       "issuer": "Barclays",
